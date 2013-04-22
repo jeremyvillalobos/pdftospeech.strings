@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+<!--
+    	Notes:  These notes can be left on the original document and the translations.  these 
+    	comments are wrapped in "commenting" symbols.  If there are any special instruction for
+    	the given string, they are located on the comment right above it.
+    	
+    	Text editors like Glassfish color-code this so it is much easier to follow.
+    	
+    	ONLY the text between tags needs translation.  
+    	Example:
+    	<string name="no_file_loaded">No file loaded</string>
+    	should be translated to 
+    	<string name="no_file_loaded">No se ha cargado un archivo</string>
+    	in spanish for example.
+    -->
+<!-- 
+		Please translate the app name for the given language.  In spanish this is called
+		PDF A Voz
+	 -->
+<string name="app_name">PDF to Speech</string>
+<string name="now_playing_tab">Now Playing</string>
+<string name="load_file_tab">Datei laden</string>
+<string name="settings_tab">Einstellungen</string>
+<string name="bookmark_tab">Lesezeichen</string>
+<string name="search_help">Telefon / Web-Suche</string>
+<!-- 
+    	content description string.  (content description strings are not displayed on the screen
+    	they are read using text-to-speech, so there is no constrain on their size and they don't
+    	need to match the capitalization of the source string )  
+    -->
+<string name="pdf_search">Legt fest, ob für eine PDF-oder DOC-Datei ein, die im Internet suchen</string>
+<string name="cd_search_edit_box">Suche im Web</string>
+<!-- content description tag  -->
+<string name="search_web">Suche Web</string>
+<string name="no_file_loaded">Keine Datei geladen</string>
+<!-- 10 characters max -->
+<string name="page">Seite:</string>
+<string name="one">1</string>
+<!-- 10 characters max -->
+<string name="sentence_bar_text">Satz:</string>
+<!-- 10 characters max -->
+<string name="sentence">Satz:</string>
+<!--
+		The cd_ in cd_prev_page_button means the text is read out loud, not displayed on the screen.
+		This is for the visually impared (Talkback app). The string is not sensitive to capitalization either
+    -->
+<string name="cd_next_page_button">Spielen Sie nächste Seite</string>
+<string name="cd_prev_page_button">Spielen vorherigen Seite</string>
+<string name="cd_next_sentence_button">spielen im nächsten Satz</string>
+<string name="cd_prev_sentence_button">spielen vorherigen Satz</string>
+<string name="cd_play_button">spielen</string>
+<!-- 15 characters max -->
+<string name="preview_options">ändern Satz</string>
+<!-- 
+    	content description string  
+    -->
+<string name="doc_search">doc-Datei suchen ausgewählt haben, klicken Sie auf Suche nach PDF-Dateien eingestellt</string>
+<string name="wait_message">Bitte warten …</string>
+<string name="cloud_medium">Durchsuchen G-Laufwerk</string>
+<string name="recent_option">Anzeige der zuletzt aufgerufenen Files</string>
+<string name="all_gdocs">Alle Google Text &amp; Tabellen</string>
+<string name="pdf_option">PDF-Dateien anzeigen</string>
+<string name="doc_option">Ansicht MS Doc-Dateien</string>
+<string name="extracting_text_message">Textextraktion aus PDF …</string>
+<!-- 20 characters maximum -->
+<string name="file_manager">Datei-Manager</string>
+<!-- 20 characters maximum -->
+<string name="webtospeech">Internet zu Sprache</string>
+<!-- OCR stands for Optical Character Recognition -->
+<string name="snappic">OCR Bild</string>
+<!-- 20 characters maximum -->
+<string name="clear_recent_str">Klare aktuelle Liste</string>
+<!-- 20 characters maximum -->
+<string name="recent_files">"Zuletzt verwendete Dateien</string>
+<string name="open_new_file">Neue Datei öffnen</string>
+<string name="cloud_medium_label">G-Laufwerk</string>
+<string name="recent_option_label">Zuletzt verwendete Dateien</string>
+<string name="all_gdocs_label">Alle Google Text &amp; Tabellen</string>
+<string name="pdf_option_label">PDF-Dateien</string>
+<string name="doc_option_label">MS Doc-Dateien</string>
+<string name="file_chooser_install_message">"Sie brauchen einen Dateisucher. Ich bringe Sie zum IO Manager, Sie können aber auch jeden anderen Dateisucher installieren. Drücken Sie auf OK, um zum Android-Markt zu gelangen."</string>
+<string name="ok">OK</string>
+<string name="no_camera_error">Keine Kamera auf dem Gerät erkannt</string>
+<string name="url_instruction">Geben Sie Linkadresse:</string>
+<string name="bad_http_address">Dies ist nicht ein Webtipp anlegen</string>
+<string name="go">Geh</string>
+<string name="cancel">Löschen</string>
+<string name="network_error">Netzwerk-Fehler: Es kann nicht eine Internet-Verbindung sein.</string>
+<string name="play_file">Play-Datei</string>
+<string name="delete_from_recent_list">Löschen Sie aus den jüngsten Liste</string>
+<string name="delete_from_phone">Löschen von Telefonnummern</string>
+<string name="cloud_feature_is_off">Das Lesen von Text aus Bildern deaktivieren, weil die Wolke Feature ist disabled.To ermöglichen gehen Sie zu Einstellungen, und klicken Sie auf "Cloud-Funktionen"</string>
+<string name="how_to_load_file_message">Drücken Sie Datei laden, um eine PDF-Datei zu laden</string>
+<string name="error_loading_pdf">Fehler beim PDF-Laden</string>
+<string name="error_loading_pdf">Ein Fehler ist beim Versuch, die PDF-Datei zu öffnen.</string>
+<!-- 20 characters max -->
+<string name="authorepeat">automatische Wiederholung</string>
+<!-- 20 characters max -->
+<string name="no_loop">Single Play</string>
+<!-- 20 characters max -->
+<string name="copy">Kopieren</string>
+<!-- 20 characters max -->
+<string name="gesture_help">Gesture-Hilfe</string>
+<!-- 20 characters max -->
+<string name="replace">Ersetzen</string>
+<!-- 20 characters max -->
+<string name="view_pdf">Ansicht doc</string>
+<!-- 20 characters max -->
+<string name="bookmark">Marker</string>
+<string name="cd_bookmark_comment">Geben Sie Kommentar zu diesem Lesezeichen verknüpft werden</string>
+<!-- 20 characters max -->
+<string name="file">Datei:</string>
+<!-- 20 characters max -->
+<string name="save">sparen</string>
+<!-- 20 characters max -->
+<string name="dismiss">Ausblenden</string>
+<string name="application_not_available">Keine Applikation verfügbar</string>
+<!--
+		These next two string are added together.  Example for PDF:
+		This device needs a PDF Viewer.  Click OK to go to the market and download an app
+		Example for Doc file
+		This device needs a MS Word Viewer.  Click OK to go to the market and download an app
+		The file type are hard coded and don't need translation
+    -->
+<string name="reader_install_message">Dieses Gerät braucht eine %1$s Zuschauer.Klicken Sie auf OK, den Markt zu gehen und Herunterladen einer Anwendung</string>
+<string name="gesture_instructions">Zeichnen Sie die Umrisse unten, um einige der PDF-to-Speech\'s Funktionen abzukürzen.Sie können die Gesten in diesem Bildschirm zu üben.</string>
+<string name="gesture_up">Nächste Seite</string>
+<string name="gesture_down">Seite nach unten</string>
+<string name="gesture_left">nächsten Satz</string>
+<string name="gesture_right">Vorherige Seite</string>
+<string name="gesture_play">Wiedergabe und Pause</string>
+<!--
+Accesibility tags, size does not matter. The string should describe the action performed by the gesture
+This video shows each gesture.
+http://www.youtube.com/watch?v=0hW-cHv_8-o
+    -->
+<string name="cd_gesture_up">Geste auf. Spielt nächsten Seite. Beginnen wir mit dem Finder an der Unterseite, nach oben, dann eine scharfe Kurve nach unten, als ob man einen großen Kopf Pfeil.</string>
+<string name="cd_gesture_down">Geste auf. Spielt vorherigen Seite. Beginnen wir mit dem Sucher an der Spitze, unten gehen, dann eine scharfe Wendung, als ob macht einen großen Kopf Pfeil.</string>
+<string name="cd_gesture_left">Spielen Sie im nächsten Satz. Swipe-Finder von rechts nach links.</string>
+<string name="cd_gesture_right">Spielen vorigen Satz. Swipe-Finder von links nach rechts.</string>
+<string name="cd_gesture_play">Wiedergabe oder Pause Geste. beginnen an der Spitze Lager rechts, dann eine scharfe Kurve nach links. Sollte ein Play-Symbol ähneln.</string>
+<string name="selected_gesture">Ausgewählte Geste</string>
+<!-- Find Replace Activity strings. -->
+<string name="bad_pattern">"Dieses Muster ausfällt Syntax."</string>
+<string name="replace_phrase">Geben Sie ersetzen Begriff:</string>
+<string name="delete">löschen</string>
+<string name="advanced_find_replace">Muster</string>
+<!-- at most 10 characters (abbreviate if needed) -->
+<string name="replace_key">Geben Sie ersetzen Schlüssel:</string>
+<string name="no_replace_rules">Es gibt keine Regeln für Suchen / Ersetzen</string>
+<string name="replace_rules">Ersetzen Regeln</string>
+<!-- at most 15 characters (abbreviate if needed) -->
+<string name="adv">voranbringen</string>
+<string name="cd_replaced_with">ersetzt durch</string>
+<string name="clear">Liste löschen</string>
+<string name="find_replace_list">Die bestehenden Suchen / Ersetzen Regeln sind unten dargestellt</string>
+<string name="find_replace_help">Hilfe</string>
+<string name="find_replace_help">Hilfe</string>
+<!-- 	at most 10 characters (abbreviate if needed)  -->
+<string name="case_sensitive">Groß-/Kleinschreibung</string>
+<!--
+		This MC should be an abrebiation of Match Case.  Example in spanish:
+		Mayuscula, with its abrebiation M 
+    -->
+<string name="shrt_case">Gehäuse</string>
+<string name="find_replace_help">Hilfe</string>
+<string name="find_replace_help">Hilfe</string>
+<!--  -->
+<string name="device_medium">Durchsuchen Telefonspeicher</string>
+<string name="label">Etikett</string>
+<string name="folder">Ordner</string>
+<string name="cd_play_language_demo">Demo Sprache spielen</string>
+<string name="cd_buy">kaufen</string>
+<!-- at most 15 characters (abbreviate if needed) -->
+<string name="comment">Kommentar</string>
+<!-- at most 15 characters (abbreviate if needed) -->
+<string name="sentence_str">Satz:</string>
+<string name="cd_bookmark_row_more_options">Weitere Optionen</string>
+<!--
+		The next string are on the Settings screen.  The title string are constrained to
+		21 characters.  The summary description (these are the ones that end in _summary like
+		language_summary ) has no constrain.
+    -->
+<!-- Strings to promote pdf-to-speech -->
+<string name="promote_pdf_to_speech">Förderung von PDF-To-Speech</string>
+<string name="no_email_sender_app_found">Kein E-Mail Absender App Gefunden</string>
+<string name="share">Erzähle deinen Freunden von PDF-to-Speech</string>
+<string name="recomend_pdf_to_speech">Recomendation zu PDF-to-Speech-App verwenden.</string>
+<string name="check_out_pdf_to_speech">Schauen Sie sich PDF-To-Speech.</string>
+<string name="reads_your_pdfs">Es liest Ihre PDFs mit Text-to-Speech und vieles mehr.</string>
+<string name="pdf_website">PDF-to-Speech-Website</string>
+<!-- Strings for settings -->
+<string name="voice_settings">Voice Einstellungen</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="language">Sprache</string>
+<string name="language_summary">Wählen Sie die Sprache, die das Dokument \'s Sprache übereinstimmt</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="speed_pitch">Speech Geschwindigkeit und Tonhöhe</string>
+<string name="speed_pitch_summary">Legt die Rede und die Tonhöhe</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="read_page_title">Lesen Sie Page Number</string>
+<string name="read_page_number">Erwähnt Seitenzahl am Anfang jeder Seite</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="extract_header_title">Erwähnen Kopfzeile</string>
+<string name="extract_header_summary">Wenn aktiviert, wird der Header auf jeder Seite lesen</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="extract_footer_title">Erwähnen Footer</string>
+<string name="extract_footer_summary">Wenn aktiviert, wird die Fußzeile auf jeder Seite lesen</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="play_over_media">Spielen Sie über Medien</string>
+<string name="play_over_media_summary">Wenn markiert, spielt über Musik-Playern und anderen Media-Anwendungen</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="look_and_feel_pref_cat">Look and Feel</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="under_the_hood_pref_cat">Unter der Haube</string>
+<!-- at most 21 characters (abbreviate if needed) (Dialog Title) -->
+<string name="select_google_account_title">auswählen Eigenes Google-Konto</string>
+<string name="cloud_feature">Cloud-Funktionen</string>
+<string name="cloud_feature_description">Aktivieren Sie auf die Bilder OCR und PDF-Dateien (erfordert Google-Konto)</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="text_extractor_title">Wählen Sie Text Extractor Tool</string>
+<string name="text_extractor_summary">Wählt den Text Auszieherwerkzeug</string>
+<!-- at most 21 characters (abbreviate if needed) (Dialog Title) -->
+<string name="txt_codec_title">Select txt Codec</string>
+<string name="txt_codec_summary">Wählt den Code Standard für Textdateien (txt) verwendet</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="promo_pref_cat">Promos</string>
+<string name="svox_summary">SVOX beheben können das Problem des Telefons Roboter Stimme</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="svoxpromo">Versuchen SVOX</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="clear_cache">Cache leeren</string>
+<string name="clear_cache_option">Cache leeren…</string>
+<string name="text_extraction_info_pdfbox">verwendet das Telefon, um den Text zu extrahieren, so dass die Datei nie verlässt das Telefon. Das Tool ist gut Extrahieren von Text aus Dokumenten mit Text-Spalten, aber es ist nicht gut Extraktion von Text aus Bildern.</string>
+<string name="text_extraction_info_googleocr">ist ein Dienst in der Cloud. Das Dokument wird transportiert sicher über das SSL-Protokoll 
+				zu Google Text Tabellen Dienstleistungen. Der Service ist gut, um Text aus Bildern zu extrahieren, und von PDF, die Box kann nicht gelesen werden PDF. 
+				Die OCR-Service ist in Beta-Version und hat eine Quote
+				, also, wenn es Anfragen zu oft benutzt Mai ablehnen.</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="about">Über</string>
+<!-- at most 21 characters (abbreviate if needed) (Dialog Title) -->
+<string name="select_language">Sprache wählen</string>
+<string name="lang_error">Konnte nicht abgerufen werden Sprachen vom Telefon unterstützt.</string>
+<string name="speechspeed">Lesegeschwindigkeit</string>
+<string name="pages_cached">Seiten im Cache:</string>
+<string name="cache_notice">Diese App speichert PDF-Text und ladet ihn beim zweiten Mal schneller. Wollen Sie den Cache leeren?</string>
+<string name="dont_clear_cache">"Cache nicht leeren"</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="adjust_speed_pitch_diag_title">Stellen Sie Schnell / Pitch</string>
+<!-- at most 30 characters (abbreviate if needed) -->
+<string name="text_extractor_diag_title">Wählen Sie Text Extraction Motor</string>
+<!-- at most 30 characters (abbreviate if needed) -->
+<string name="text_code_diag_title">Wählen Sie Text Code</string>
+<!-- at most 30 characters (abbreviate if needed) -->
+<string name="clear_cache_diag_title">Cache löschen</string>
+<!-- About pdf-to-speech dialog -->
+<string name="about_notice">Version %1$s \n Copyright © 2010 Jeremy Villalobos.\n
+        \n</string>
+<string name="license">Lizenz</string>
+<string name="credits">Credits</string>
+<string name="pitch">Zeichendichte</string>
+<string name="default_button">Voreinstellung</string>
+<!-- Speaker Service -->
+<string name="playing">Spielt</string>
+<string name="service_started">Der Service hat begonnen</string>
+<string name="document_done">Dokument fertig</string>
+<string name="title">Titel:</string>
+<!-- PageReader Service -->
+<string name="uploading_pic_to_cloud">Hochladen der Datei zu Cloud</string>
+<string name="text_extraction_page">"Textextraktion. Seite: "</string>
+<string name="page_reader_started">Textextraktion hat begonnen</string>
+<string name="get_text_from_cloud">retriving Text</string>
+<string name="extracting_text">Extrahieren von Text</string>
+<string name="page_read">suche</string>
+<string name="empty_file_list">Keine Dateien in diesem Ordner</string>
+<!-- Bookmark Fragment -->
+<string name="use_cloud_disabled">Cloud-Einsatz ist zu deaktivieren, damit die ausgewählte Datei nicht gelesen werden können.</string>
+<string name="bookmark_options_title">bookmarken-Menü</string>
+<string name="bookmark_play">spielen</string>
+<string name="bookmark_view">sehen</string>
+<string name="bookmark_edit">bearbeiten</string>
+<string name="bookmark_delete">löschen</string>
+<string name="bookmark_empty">Es gibt keine Lesezeichen für dieses Dokument</string>
+<!-- Settings tab -->
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="accounts">Konten</string>
+<string name="accounts_summary">Festlegen oder Ändern Ihres Google-Kontos für Google Docs Zugang</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="speech_engine">Speech Engine</string>
+<string name="speech_engine_summary">Wählen Sie die Sprach-Engine zu verwenden</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="theme_title">Thema</string>
+<string name="theme_summary">Wählen Sie ein Thema für die Pdf-to-Speech</string>
+<string name="sunny_blue">sonnigen blauen</string>
+<string name="clear_nigh">klaren Nacht</string>
+<!-- Intent Handler -->
+<string name="maybenotpdftxtfile">Die Dateierweiterung wurde nicht erkannt Vielleicht ist dies kein txt oder pdf?</string>
+<!--
+		EULA strings (do not translate !)
+		The agreement is agreed upon in English: i_accept, i_decline, and eulat_title 
+		are all left in English.
+    -->
+<string name="i_accept">I Accept</string>
+<string name="i_decline">I Decline</string>
+<string name="eula_title">Pdf-to-Speech End User Agreement</string>
+<!-- End of EULA do not tranlate. -->
+<string name="auto_scroll">Auto Scroll</string>
+<!-- New Strings -->
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="stream_select">Wählen Sie Audio-Stream</string>
+<string name="stream_select_description">Wählen Sie, welcher Strom für Pdf-to-Speech verwenden. Vermeiden MUSIC Stream, wenn Sie eine andere Lautstärke für Pdf-to-Speech und der Musik-App festlegen möchten.</string>
+<string name="alarm">Wecker</string>
+<string name="music">Musik</string>
+<string name="tones">Tones</string>
+<string name="notification">Benachrichtigung</string>
+<string name="system">System</string>
+<string name="ring">Ring</string>
+<string name="voice_call">Sprachanruf</string>
+<string name="cd_global_progress">Die Datei\'s globalen Fortschritt</string>
+<string name="cd_current_sentence">aktuellen Satz</string>
+</resources>

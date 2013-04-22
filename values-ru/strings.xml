@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+Practical Apps выражает благодарность Олегу Глинскому за перевод Pdf-в-Речь на русский язык.
+This tranlation was done by Oleg Glinskiy
+ -->
+<resources>
+<!--
+    	Notes:  These notes can be left on the original document and the translations.  these 
+    	comments are wrapped in "commenting" symbols.  If there are any special instruction for
+    	the given string, they are located on the comment right above it.
+    	
+    	Text editors like Glassfish color-code this so it is much easier to follow.
+    	
+    	ONLY the text between tags needs translation.  
+    	Example:
+    	<string name="no_file_loaded">No file loaded</string>
+    	should be translated to 
+    	<string name="no_file_loaded">No se ha cargado un archivo</string>
+    	in spanish for example.
+    -->
+<!-- 
+		Please translate the app name for the given language.  In spanish this is called
+		PDF A Voz
+	 -->
+<string name="app_name">Pdf-в-Речь</string>
+<string name="now_playing_tab">Текущий файл</string>
+<string name="load_file_tab">Открыть файл</string>
+<string name="settings_tab">Настройки</string>
+<string name="bookmark_tab">Закладки</string>
+<string name="search_help">Поиск в устройстве/интернете</string>
+<!-- 
+    	content description string.  (content description strings are not displayed on the screen
+    	they are read using text-to-speech, so there is no constrain on their size and they don't
+    	need to match the capitalization of the source string )  
+    -->
+<string name="pdf_search">Выбран режим поиска pdf-файлов, нажмите для перехода к поиску doc-файлов</string>
+<string name="cd_search_edit_box">Поиск в интернете</string>
+<!-- content description tag  -->
+<string name="search_web">Поиск в интернете</string>
+<string name="no_file_loaded">Открытого файла нет</string>
+<!-- 10 characters max -->
+<string name="page">Страница:</string>
+<string name="one">1</string>
+<!-- 10 characters max -->
+<string name="sentence_bar_text">Предложение:</string>
+<!-- 10 characters max -->
+<string name="sentence">Предложение номер:</string>
+<!--
+		The cd_ in cd_prev_page_button means the text is read out loud, not displayed on the screen.
+		This is for the visually impared (Talkback app). The string is not sensitive to capitalization either
+    -->
+<string name="cd_next_page_button">Чтение следущей страницы</string>
+<string name="cd_prev_page_button">Чтение предыдущей страницы</string>
+<string name="cd_next_sentence_button">Чтение следующего предложения</string>
+<string name="cd_prev_sentence_button">Чтение предыдущего предложения</string>
+<string name="cd_play_button">Чтение или пауза</string>
+<!-- 15 characters max -->
+<string name="preview_options">Изменение предложения</string>
+<!-- 
+    	content description string  
+    -->
+<string name="doc_search">Выбран режим поиска doc-файлов, нажмите для перехода к поиску pdf-файлов</string>
+<string name="wait_message">Пожалуйста,подождите…</string>
+<string name="cloud_medium">Обзор G Drive</string>
+<string name="recent_option">Недавние файлы</string>
+<string name="all_gdocs">Все Документы Google</string>
+<string name="pdf_option">Файлы pdf</string>
+<string name="doc_option">Файлы MS-док</string>
+<string name="extracting_text_message">Получение текста из документа…</string>
+<!-- 20 characters maximum -->
+<string name="file_manager">Файловый менеджер</string>
+<!-- 20 characters maximum -->
+<string name="webtospeech">Web-в-Речь</string>
+<!-- OCR stands for Optical Character Recognition -->
+<string name="snappic">Снимок для OCR</string>
+<!-- 20 characters maximum -->
+<string name="clear_recent_str">Очистить историю</string>
+<!-- 20 characters maximum -->
+<string name="recent_files">"Недавние файлы</string>
+<string name="open_new_file">Открыть новый файл</string>
+<string name="cloud_medium_label">GDrive</string>
+<string name="recent_option_label">Недавние файлы</string>
+<string name="all_gdocs_label">Все Документы Google</string>
+<string name="pdf_option_label">Файлы pdf</string>
+<string name="doc_option_label">Файлы MS-doc</string>
+<string name="file_chooser_install_message">"Вам нужен какой-нибудь файловый менеджер. Я направлю Вас на страницу OI-менеджера, но Вы можете также установить любой другой файловый менеджер. Нажмите OK, чтобы перейти на Play store."</string>
+<string name="ok">OK</string>
+<string name="no_camera_error">Не удалось обнаружить камеру на устройстве</string>
+<string name="url_instruction">Введите адрес ссылки:</string>
+<string name="bad_http_address">Это не веб-ссылка</string>
+<string name="go">Перейти</string>
+<string name="cancel">Отмена</string>
+<string name="network_error">Ошибка сети: Возможно отсутствует подключение к Интернету.</string>
+<string name="play_file">Воспроизведение файла</string>
+<string name="delete_from_recent_list">Удалить из списка недавних</string>
+<string name="delete_from_phone">Удалить из устройства</string>
+<string name="cloud_feature_is_off">Чтение текста из изображений невозможно, так как облачные функции отключены. Чтобы их включить, перейдите на вкладку "Настройки" и нажмите"Облачные функции"</string>
+<string name="how_to_load_file_message">Перейдите к вкладке открытия файлов, чтобы открыть документ</string>
+<string name="error_loading_pdf">Произошла ошибка при открытии документа.</string>
+<string name="error_loading_pdf">Произошла ошибка при открытии документа.</string>
+<!-- 20 characters max -->
+<string name="authorepeat">Автоповтор</string>
+<!-- 20 characters max -->
+<string name="no_loop">Однократное воспроизведение</string>
+<!-- 20 characters max -->
+<string name="copy">Копировать</string>
+<!-- 20 characters max -->
+<string name="gesture_help">Справка по жестам</string>
+<!-- 20 characters max -->
+<string name="replace">Заменаь</string>
+<!-- 20 characters max -->
+<string name="view_pdf">Просмотреть Doc</string>
+<!-- 20 characters max -->
+<string name="bookmark">Закладка</string>
+<string name="cd_bookmark_comment">Введите комментарий к закладки</string>
+<!-- 20 characters max -->
+<string name="file">Файл:</string>
+<!-- 20 characters max -->
+<string name="save">Сохранить</string>
+<!-- 20 characters max -->
+<string name="dismiss">Закрыть</string>
+<string name="application_not_available">Нет подходящего приложения</string>
+<!--
+		These next two string are added together.  Example for PDF:
+		This device needs a PDF Viewer.  Click OK to go to the market and download an app
+		Example for Doc file
+		This device needs a MS Word Viewer.  Click OK to go to the market and download an app
+		The file type are hard coded and don't need translation
+    -->
+<string name="reader_install_message">На данном устройстве нет  просмотрщика %1$s Нажмите ОК, чтобы перейти на Play store и загрузить соответствующее приложение</string>
+<string name="gesture_instructions">Нарисуйте одну из фигур показанных ниже, для быстрого выполнения некоторых функций Pdf-в-Речь. Вы можете попрактиковаться на этом экране.</string>
+<string name="gesture_up">Следующая страница</string>
+<string name="gesture_down">Предыдущая страница</string>
+<string name="gesture_left">Следующее предложение</string>
+<string name="gesture_right">Предыдущее предложение</string>
+<string name="gesture_play">Воспроизведение или пауза</string>
+<!--
+Accesibility tags, size does not matter. The string should describe the action performed by the gesture
+This video shows each gesture.
+http://www.youtube.com/watch?v=0hW-cHv_8-o
+    -->
+<string name="cd_gesture_up">Комбинированный жест: Воспроизведение следующей страницы: Сдвигайте палец ровно снизу вверх скользящим движением, затем направьте его под углом вниз, как будто изображаете большую стрелку.</string>
+<string name="cd_gesture_down">Комбинированный жест: Воспроизведение предыдущей странице: Сдвигайте палец ровно сверху вниз скользящим движением, затем направьте его под углом вверх, как будто изображаете большую стрелку.</string>
+<string name="cd_gesture_left">Прослушать следующее предложение: Скользящий жест справа налево.</string>
+<string name="cd_gesture_right">Прослушать предыдущее предложение: Скользящий жест слева направо.</string>
+<string name="cd_gesture_play">Комбинированный жест воспроизведения/паузы: С левой верхней части экрана сдвигайте палец вправо под углом , затем направьте его резко влево и вниз. Жест напоминает символ воспроизведения.</string>
+<string name="selected_gesture">Получившийся жест:</string>
+<!-- Find Replace Activity strings. -->
+<string name="bad_pattern">"Синтаксическая ошибка в схеме образца"</string>
+<string name="replace_phrase">Заменяющее слово/фраза:</string>
+<string name="delete">удалить</string>
+<string name="advanced_find_replace">Образец</string>
+<!-- at most 10 characters (abbreviate if needed) -->
+<string name="replace_key">Заменяемое слово/фраза:</string>
+<string name="no_replace_rules">Нет ранее созданных правил, чтобы можно было выполнять Поиск/Замену</string>
+<string name="replace_rules">Замена правила</string>
+<!-- at most 15 characters (abbreviate if needed) -->
+<string name="adv">Лополнительно</string>
+<string name="cd_replaced_with">Заменено</string>
+<string name="clear">Очистить список</string>
+<string name="find_replace_list">Существующие правила поиска/замены  показаны ниже</string>
+<string name="find_replace_help">Справка</string>
+<string name="find_replace_help">Справка</string>
+<!-- 	at most 10 characters (abbreviate if needed)  -->
+<string name="case_sensitive">С учетом регистра</string>
+<!--
+		This MC should be an abrebiation of Match Case.  Example in spanish:
+		Mayuscula, with its abrebiation M 
+    -->
+<string name="shrt_case">С учетом регистра</string>
+<string name="find_replace_help">Справка</string>
+<string name="find_replace_help">Справка</string>
+<!--  -->
+<string name="device_medium">Обзор памяти устройства</string>
+<string name="label">Значок:</string>
+<string name="folder">Папка</string>
+<string name="cd_play_language_demo">Образец голоса</string>
+<string name="cd_buy">Купить</string>
+<!-- at most 15 characters (abbreviate if needed) -->
+<string name="comment">Комментарий:</string>
+<!-- at most 15 characters (abbreviate if needed) -->
+<string name="sentence_str">Предложение:</string>
+<string name="cd_bookmark_row_more_options">Дополнительные параметры</string>
+<!--
+		The next string are on the Settings screen.  The title string are constrained to
+		21 characters.  The summary description (these are the ones that end in _summary like
+		language_summary ) has no constrain.
+    -->
+<!-- Strings to promote pdf-to-speech -->
+<string name="promote_pdf_to_speech">Продвижение Pdf-в-Речь</string>
+<string name="no_email_sender_app_found">Нет Электронная почта отправитель приложении найденный</string>
+<string name="share">Расскажите своим друзьям о Pdf-в-Речь</string>
+<string name="recomend_pdf_to_speech">Порекомендовать приложение Pdf-в-Речь.</string>
+<string name="check_out_pdf_to_speech">Попробуйте Pdf-в-Речь.</string>
+<string name="reads_your_pdfs">Он сможет читать с помощью синтезатора речи Ваши документы и многие другие тексты.</string>
+<string name="pdf_website">Сайт Pdf-в-Речь</string>
+<!-- Strings for settings -->
+<string name="voice_settings">Речь</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="language">Язык</string>
+<string name="language_summary">Укажите язык, соответствующий языку текстов</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="speed_pitch">Скорость и тон речи</string>
+<string name="speed_pitch_summary">Установка скорости итона речи</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="read_page_title">Произносить Номер страницы</string>
+<string name="read_page_number">Произносить номер страницы в начале каждой страницы</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="extract_header_title">Обозначать заголовки</string>
+<string name="extract_header_summary">Если включено, страничные заголовки будут  зачитываться</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="extract_footer_title">Обозначать сноски</string>
+<string name="extract_footer_summary">Если включено, страничные сноски будут зачитываться</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="play_over_media">Чтение параллельно Медиа-потоку</string>
+<string name="play_over_media_summary">Если отмечено, работа музыкальных плееров и других медиа-приложений не будет влиять на чтение</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="look_and_feel_pref_cat">Внешний вид</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="under_the_hood_pref_cat">Прочее</string>
+<!-- at most 21 characters (abbreviate if needed) (Dialog Title) -->
+<string name="select_google_account_title">Выберите аккаунту Google</string>
+<string name="cloud_feature">Облачные функции</string>
+<string name="cloud_feature_description">Включить распознавание изображений и pdf-файлов (необходим аккаунт Google)</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="text_extractor_title">Метод извлечения текста</string>
+<string name="text_extractor_summary">Выберите метод извлечения текста</string>
+<!-- at most 21 characters (abbreviate if needed) (Dialog Title) -->
+<string name="txt_codec_title">Выберите текстовую кодировку</string>
+<string name="txt_codec_summary">Укажите какую кодировку использовать по-умолчанию для текстовых файлов (TXT)</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="promo_pref_cat">Совет</string>
+<string name="svox_summary">SVOX обладает мягкой речью, идеально подходящей для прослушивания длинных текстов</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="svoxpromo">Попробуйте SVOX</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="clear_cache">Очистить кэш</string>
+<string name="clear_cache_option">Кэш документов позволяет быстрее начинать чтение, но иногда может понадобиться его очистить, чтобы конфигурационные изменения вступили в силу</string>
+<string name="text_extraction_info_pdfbox">
+ благодаря тому, что текст извлекается локально на устройстве, файл никуда не передается. Этот метод удобен в извлечения содержимого документа со сплошным текстом, но он малопригоден для получения текста из графических изображений.
+ </string>
+<string name="text_extraction_info_googleocr">
+ облачный сервис. Передача документа будет происходить через защищенный SSL-протокол службы Документов Google. Это хороший вариант по извлечению текста из тех изображений и pdf-файлов, которые не удается прочитать PdfBox/’ом. Сервис распознавания находится в стадии бета-тестирования и имеет ограничения, поэтому слишком частые запросы могут отклоняться.
+ </string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="about">О программе</string>
+<!-- at most 21 characters (abbreviate if needed) (Dialog Title) -->
+<string name="select_language">Выберите язык</string>
+<string name="lang_error">Не удалось получить список языков поддерживаемых устройством.</string>
+<string name="speechspeed">Скорость речи</string>
+<string name="pages_cached">Кэшированных страниц:</string>
+<string name="cache_notice">Это приложение сохраняет текст документов для того, чтобы при повторном к ним обращении, их можно было открыть быстрее. Вы действительно хотите очистить кэш?    </string>
+<string name="dont_clear_cache">"Не очищать кэш"</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="adjust_speed_pitch_diag_title">Регулировка скорости/тона</string>
+<!-- at most 30 characters (abbreviate if needed) -->
+<string name="text_extractor_diag_title">Выберите метод извлечения текста</string>
+<!-- at most 30 characters (abbreviate if needed) -->
+<string name="text_code_diag_title">Выберите текстовую кодировку</string>
+<!-- at most 30 characters (abbreviate if needed) -->
+<string name="clear_cache_diag_title">Очистить кэш</string>
+<!-- About pdf-to-speech dialog -->
+<string name="about_notice"> 
+    	Версия %1$s Copyright © 2010 Jeremy Villalobos.\n
+</string>
+<string name="license">Лицензия</string>
+<string name="credits">Благодарности</string>
+<string name="pitch">Тон речи</string>
+<string name="default_button">Сброс</string>
+<!-- Speaker Service -->
+<string name="playing">Чтение</string>
+<string name="service_started">Служба запущена</string>
+<string name="document_done">Конец документа</string>
+<string name="title">Заголовок:</string>
+<!-- PageReader Service -->
+<string name="uploading_pic_to_cloud">Выгрузка файла в облако</string>
+<string name="text_extraction_page">"Извлечения текста. Страница:"</string>
+<string name="page_reader_started">Извлечение текста началось</string>
+<string name="get_text_from_cloud">Получение текста</string>
+<string name="extracting_text">Извлечение текста</string>
+<string name="page_read"> Страница </string>
+<string name="empty_file_list">В этой папке нет файлов</string>
+<!-- Bookmark Fragment -->
+<string name="use_cloud_disabled">Облако отключено, поэтому выбранный файл нельзя прочитать.</string>
+<string name="bookmark_options_title">Меню закладок</string>
+<string name="bookmark_play">Прослушать</string>
+<string name="bookmark_view">Просмотреть</string>
+<string name="bookmark_edit">Редактировать</string>
+<string name="bookmark_delete">Удалить</string>
+<string name="bookmark_empty">В этом документе нет закладок</string>
+<!-- Settings tab -->
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="accounts">Учетные записи</string>
+<string name="accounts_summary">Подключение или изменение учетной записи Google, для доступа к Документам Google</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="speech_engine">Синтезатор речи</string>
+<string name="speech_engine_summary">Укажите предпочитаемый синтезатор речи</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="theme_title">Тема оформления</string>
+<string name="theme_summary">Выберите тему для Pdf-в-Речь</string>
+<string name="sunny_blue">Солнечный день</string>
+<string name="clear_nigh">Звездная ночь</string>
+<!-- Intent Handler -->
+<string name="maybenotpdftxtfile">Расширение файла не распознано. Может быть это не поддерживаемый формат?</string>
+<!--
+		EULA strings (do not translate !)
+		The agreement is agreed upon in English: i_accept, i_decline, and eulat_title 
+		are all left in English.
+    -->
+<string name="i_accept">I Accept</string>
+<string name="i_decline">I Decline</string>
+<string name="eula_title">Pdf-to-Speech End User Agreement</string>
+<!-- End of EULA do not tranlate. -->
+<string name="auto_scroll">Автопрокрутка</string>
+<!-- New Strings -->
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="stream_select">Выбор звукового потока</string>
+<string name="stream_select_description">Выберите поток, который будет использоваться Pdf-в-Речь. Если вы хотите раздельно регулировать громкость Pdf-в-Речь и мультимедиа-приложений, то не указывайте поток "Музыка".</string>
+<string name="alarm">Будильник</string>
+<string name="music">музыка</string>
+<string name="tones">Сигналы</string>
+<string name="notification">Уведомления</string>
+<string name="system">система</string>
+<string name="ring">Рингтон</string>
+<string name="voice_call">Речевой динамик</string>
+<string name="cd_global_progress">Общий прогресс воспроизведения файла</string>
+<string name="cd_current_sentence">Текущее предложение</string>
+</resources>

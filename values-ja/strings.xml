@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+<!--
+    	Notes:  These notes can be left on the original document and the translations.  these 
+    	comments are wrapped in "commenting" symbols.  If there are any special instruction for
+    	the given string, they are located on the comment right above it.
+    	
+    	Text editors like Glassfish color-code this so it is much easier to follow.
+    	
+    	ONLY the text between tags needs translation.  
+    	Example:
+    	<string name="no_file_loaded">No file loaded</string>
+    	should be translated to 
+    	<string name="no_file_loaded">No se ha cargado un archivo</string>
+    	in spanish for example.
+    -->
+<!-- 
+		Please translate the app name for the given language.  In spanish this is called
+		PDF A Voz
+	 -->
+<string name="app_name">スピーチへPDF</string>
+<string name="now_playing_tab">プレイ中</string>
+<string name="load_file_tab">ファイルを読み込む</string>
+<string name="settings_tab">設定</string>
+<string name="bookmark_tab">ブックマーク</string>
+<string name="search_help">電話/ウェブ検索</string>
+<!-- 
+    	content description string.  (content description strings are not displayed on the screen
+    	they are read using text-to-speech, so there is no constrain on their size and they don't
+    	need to match the capitalization of the source string )  
+    -->
+<string name="pdf_search">選択したPDFファイルの検索は、docファイルを検索するためにクリック</string>
+<string name="cd_search_edit_box">検索ウェブ </string>
+<!-- content description tag  -->
+<string name="search_web">検索ウェブ</string>
+<string name="no_file_loaded">ロードされませんファイル</string>
+<!-- 10 characters max -->
+<string name="page">ページ</string>
+<string name="one">1</string>
+<!-- 10 characters max -->
+<string name="sentence_bar_text">文:</string>
+<!-- 10 characters max -->
+<string name="sentence">文番号：</string>
+<!--
+		The cd_ in cd_prev_page_button means the text is read out loud, not displayed on the screen.
+		This is for the visually impared (Talkback app). The string is not sensitive to capitalization either
+    -->
+<string name="cd_next_page_button">次のページを果たす</string>
+<string name="cd_prev_page_button">前のページを果たす</string>
+<string name="cd_next_sentence_button">次の文章を再生</string>
+<string name="cd_prev_sentence_button">前の文を果たす</string>
+<string name="cd_play_button">遊ぶ</string>
+<!-- 15 characters max -->
+<string name="preview_options">文章を変更します</string>
+<!-- 
+    	content description string  
+    -->
+<string name="doc_search">docファイルの検索、選択し、PDFファイルの検索を設定するにはクリック</string>
+<string name="wait_message">しばらくお待ちください…</string>
+<string name="cloud_medium">Gドライブをブラウズ</string>
+<string name="recent_option">最近使ったファイルを表示</string>
+<string name="all_gdocs">すべてのGoogleドキュメントをごらん</string>
+<string name="pdf_option">PDFファイルを表示</string>
+<string name="doc_option">ビューのMS docファイル</string>
+<string name="extracting_text_message"> 文書からテキストを抽出…</string>
+<!-- 20 characters maximum -->
+<string name="file_manager">ファイルマネージャー</string>
+<!-- 20 characters maximum -->
+<string name="webtospeech">スピーチにウェブ</string>
+<!-- OCR stands for Optical Character Recognition -->
+<string name="snappic">OCRの写真</string>
+<!-- 20 characters maximum -->
+<string name="clear_recent_str">クリア最近のリスト</string>
+<!-- 20 characters maximum -->
+<string name="recent_files">"最近使用したファイル</string>
+<string name="open_new_file">新規ファイルを開きます</string>
+<string name="cloud_medium_label">Gドライブ</string>
+<string name="recent_option_label">最近使用したファイル</string>
+<string name="all_gdocs_label">すべてのGoogleドキュメント</string>
+<string name="pdf_option_label">PDFファイル</string>
+<string name="doc_option_label">MS docファイル</string>
+<string name="file_chooser_install_message">"あなたは、ファイルチューザが必要となります。私はIOマネージャにあなたを導くでしょうが、同様に他のファイルチューザをインストールすることができます。 Android Marketに行くには、[OK]を押す."</string>
+<string name="ok">[OK]</string>
+<string name="no_camera_error">デバイス上で検出されませんカメラ</string>
+<string name="url_instruction">リンクのアドレスを入力してください：</string>
+<string name="bad_http_address">これは、Webリンクではありません</string>
+<string name="go">行く</string>
+<string name="cancel">キャンセル</string>
+<string name="network_error">ネットワークエラー：インターネット接続がない場合があります。</string>
+<string name="play_file">ファイルを再生</string>
+<string name="delete_from_recent_list">最近のリストから削除</string>
+<string name="delete_from_phone">携帯電話から削除</string>
+<string name="cloud_feature_is_off">クラウド機能が無効になっているため、画像からテキストを読むことは無効です。、有効にする設定]タブに移動し、"クラウドコンピュー機能"をクリックします;</string>
+<string name="how_to_load_file_message">文書をロードするファイルを取得押す</string>
+<string name="error_loading_pdf">読み込みエラードキュメント</string>
+<string name="error_loading_pdf">PDFファイルを開こうとしているときにエラーが発生しました。</string>
+<!-- 20 characters max -->
+<string name="authorepeat">オートリピート</string>
+<!-- 20 characters max -->
+<string name="no_loop">シングルプレイ</string>
+<!-- 20 characters max -->
+<string name="copy">コピー</string>
+<!-- 20 characters max -->
+<string name="gesture_help">ジェスチャーのヘルプ</string>
+<!-- 20 characters max -->
+<string name="replace">置き換える</string>
+<!-- 20 characters max -->
+<string name="view_pdf">ビュードク</string>
+<!-- 20 characters max -->
+<string name="bookmark">ブックマーク</string>
+<string name="cd_bookmark_comment">このブックマークに関連付けることがコミット入力</string>
+<!-- 20 characters max -->
+<string name="file">ファイル</string>
+<!-- 20 characters max -->
+<string name="save">保存</string>
+<!-- 20 characters max -->
+<string name="dismiss">却下する</string>
+<string name="application_not_available">利用可能なアプリケーションがありません</string>
+<!--
+		These next two string are added together.  Example for PDF:
+		This device needs a PDF Viewer.  Click OK to go to the market and download an app
+		Example for Doc file
+		This device needs a MS Word Viewer.  Click OK to go to the market and download an app
+		The file type are hard coded and don't need translation
+    -->
+<string name="reader_install_message">このデバイスは、ニーズ %1$s ビューアー.クリック ok に移動するには マーケット とアプリケーションをダウンロード</string>
+<string name="gesture_instructions">PDF-to-Speechののいくつかの機能へのショートカットの下にあるシェイプを描画します。この画面ではジェスチャーを練習することができます。</string>
+<string name="gesture_up">次のページ</string>
+<string name="gesture_down">ページを下に</string>
+<string name="gesture_left">次の文</string>
+<string name="gesture_right">前のページ</string>
+<string name="gesture_play">再生と一時停止</string>
+<!--
+Accesibility tags, size does not matter. The string should describe the action performed by the gesture
+This video shows each gesture.
+http://www.youtube.com/watch?v=0hW-cHv_8-o
+    -->
+<string name="cd_gesture_up">ジェスチャー。次のページを再生します。大きな頭の矢印を作っているかのように下部にファインダーで始まり、その後、急カーブを上下に移動します。</string>
+<string name="cd_gesture_down">ジェスチャー。前のページを再生します。大きな頭の矢印を作っているかのように上部にファインダーで始まり、その後、急カーブを下る.</string>
+<string name="cd_gesture_left">次の文章を再生します。右からスワイプファインダーは残しました。</string>
+<string name="cd_gesture_right">前の文章を再生します。左から右へスワイプのファインダー。</string>
+<string name="cd_gesture_play">ジェスチャーを再生または一時停止します。左に急旋回、右、上部軸受けから始まります。プレイシンボルのようになります。</string>
+<string name="selected_gesture">選択したジェスチャー</string>
+<!-- Find Replace Activity strings. -->
+<string name="bad_pattern">"このパターンは、次の構文を失敗"</string>
+<string name="replace_phrase">交換する語句を入力し:</string>
+<string name="delete">削除</string>
+<string name="advanced_find_replace">パターン</string>
+<!-- at most 10 characters (abbreviate if needed) -->
+<string name="replace_key">鍵を交換して入力します:</string>
+<string name="no_replace_rules">検索/置換のための規則はありません</string>
+<string name="replace_rules">ルールを置き換える</string>
+<!-- at most 15 characters (abbreviate if needed) -->
+<string name="adv">前進</string>
+<string name="cd_replaced_with">に置き換え</string>
+<string name="clear">リストのクリア</string>
+<string name="find_replace_list">既存の検索/置換ルールは以下の通りです。</string>
+<string name="find_replace_help">助ける</string>
+<string name="find_replace_help">助ける</string>
+<!-- 	at most 10 characters (abbreviate if needed)  -->
+<string name="case_sensitive">大文字を一致s</string>
+<!--
+		This MC should be an abrebiation of Match Case.  Example in spanish:
+		Mayuscula, with its abrebiation M 
+    -->
+<string name="shrt_case">ケース</string>
+<string name="find_replace_help">助ける</string>
+<string name="find_replace_help">助ける</string>
+<!--  -->
+<string name="device_medium">電話のストレージをブラウズ</string>
+<string name="label">ラベル</string>
+<string name="folder">フォルダ</string>
+<string name="cd_play_language_demo">言語のデモを再生</string>
+<string name="cd_buy">買う</string>
+<!-- at most 15 characters (abbreviate if needed) -->
+<string name="comment">コメント</string>
+<!-- at most 15 characters (abbreviate if needed) -->
+<string name="sentence_str">文</string>
+<string name="cd_bookmark_row_more_options">その他のオプション</string>
+<!--
+		The next string are on the Settings screen.  The title string are constrained to
+		21 characters.  The summary description (these are the ones that end in _summary like
+		language_summary ) has no constrain.
+    -->
+<!-- Strings to promote pdf-to-speech -->
+<string name="promote_pdf_to_speech">Docsの読み上げを促進</string>
+<string name="no_email_sender_app_found">メール送信アプリは見つかりませんでした</string>
+<string name="share">Docsの読み上げをお友達に教える</string>
+<string name="recomend_pdf_to_speech">DOCS-to-Speechのアプリを使用するように推奨。</string>
+<string name="check_out_pdf_to_speech">Docsの読み上げをチェックアウトします。</string>
+<string name="reads_your_pdfs">これは、テキストを音声に変換し、複数を使用して文書を読みます。</string>
+<string name="pdf_website">DOCS-to-Speechのウェブサイト</string>
+<!-- Strings for settings -->
+<string name="voice_settings">声</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="language">言語</string>
+<string name="language_summary">ドキュメントの言語と一致する言語を選択してください</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="speed_pitch">スピーチ速度とピッチ</string>
+<string name="speed_pitch_summary">スピーチ速度とピッチを設定します</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="read_page_title">ページ番号を読む</string>
+<string name="read_page_number">各ページの先頭にページ番号をお伝え</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="extract_header_title">ヘッダーに言及</string>
+<string name="extract_header_summary">有効にした場合、各ページのヘッダーが読み込まれます</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="extract_footer_title">フッター言及</string>
+<string name="extract_footer_summary">有効な場合は、各ページのフッターが読み込まれます</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="play_over_media">メディアの上で遊ぶ</string>
+<string name="play_over_media_summary">チェックを入れると、音楽プレーヤーおよび他のメディアアプリケーションを繰り返し再生されます</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="look_and_feel_pref_cat">ルックアンドフィール</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="under_the_hood_pref_cat">ボンネットの下</string>
+<!-- at most 21 characters (abbreviate if needed) (Dialog Title) -->
+<string name="select_google_account_title">Googleアカウントを選択</string>
+<string name="cloud_feature">クラウドの特徴</string>
+<string name="cloud_feature_description">写真やPDFファイルにOCRを（Googleアカウントが必要です）を有効に</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="text_extractor_title">テキスト抽出ツールを選択</string>
+<string name="text_extractor_summary">テキスト抽出ツールを選択します</string>
+<!-- at most 21 characters (abbreviate if needed) (Dialog Title) -->
+<string name="txt_codec_title">テキストコーデックを選択</string>
+<string name="txt_codec_summary">テキストファイル（txt）に使用されるコードの規格を選択します</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="promo_pref_cat">プロモ</string>
+<string name="svox_summary">SVOX長いドキュメントを読むために理想的な柔らかい声を提供しています</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="svoxpromo">SVOXをお試しください</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="clear_cache">キャッシュのクリア</string>
+<string name="clear_cache_option">文書キャッシュの読書スピードアップが、新しいコンフィギュレーションの変更を確実にするためにクリアすることができますが有効になります</string>
+<string name="text_extraction_info_pdfbox">テキストを抽出するために電話を使用するため、ファイルには、電話機を離れることはありません。このツールは、テキスト列を持つドキュメントからテキストを抽出するのが得意ですが、それは画像からテキストを抽出するのが得意ではありません。</string>
+<string name="text_extraction_info_googleocr">
+    クラウド内のサービスです。ドキュメントはGoogleドキュメントサービスにSSLプロトコルを使用して安全に輸送されます。サービスでは、画像からテキストを抽出することが良い、とPdfBoxが読み取ることができないPDFから。 OCRのサービスはベータリリースであり、クォータを持っていますので、それがあまりにも頻繁に使用された場合の要求を拒絶するかもしれません。
+    </string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="about">約</string>
+<!-- at most 21 characters (abbreviate if needed) (Dialog Title) -->
+<string name="select_language">言語を選択してください。</string>
+<string name="lang_error">電話でサポートされている言語を取得できませんでした。</string>
+<string name="speechspeed">読者スピード</string>
+<string name="pages_cached"> ページキャッシュ：</string>
+<string name="cache_notice">文書からこのアプリを格納したテキストは、 sの高速化し、2回目をロードします。あなたはキャッシュをクリアしたいですか？
+    </string>
+<string name="dont_clear_cache">"キャッシュをクリアしないでください"</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="adjust_speed_pitch_diag_title">スピード調整/ピッチ</string>
+<!-- at most 30 characters (abbreviate if needed) -->
+<string name="text_extractor_diag_title">テキスト抽出エンジンを選択</string>
+<!-- at most 30 characters (abbreviate if needed) -->
+<string name="text_code_diag_title">テキストコードを選択</string>
+<!-- at most 30 characters (abbreviate if needed) -->
+<string name="clear_cache_diag_title">キャッシュのクリア</string>
+<!-- About pdf-to-speech dialog -->
+<string name="about_notice"> 
+    	バージョン %1$s
+    	著作権©2010ジェレミー·ヴィラロボスます\ n
+       
+       	
+    </string>
+<string name="license">ライセンス</string>
+<string name="credits">クレジット</string>
+<string name="pitch">ピッチ</string>
+<string name="default_button">デフォルト</string>
+<!-- Speaker Service -->
+<string name="playing">再生</string>
+<string name="service_started">サービスが開始されました</string>
+<string name="document_done">ドキュメントが終了しました</string>
+<string name="title">タイトル：</string>
+<!-- PageReader Service -->
+<string name="uploading_pic_to_cloud">クラウドへのファイルのアップロード</string>
+<string name="text_extraction_page">"テキスト抽出。ページ："</string>
+<string name="page_reader_started">テキストの抽出を開始</string>
+<string name="get_text_from_cloud">テキストの取得</string>
+<string name="extracting_text">テキストを抽出</string>
+<string name="page_read">ページ</string>
+<string name="empty_file_list">このフォルダ内のファイルがありません</string>
+<!-- Bookmark Fragment -->
+<string name="use_cloud_disabled">クラウドの利用は、したがって、選択されたファイルを読み取ることができない、無効になっています</string>
+<string name="bookmark_options_title">メニューをブックマーク</string>
+<string name="bookmark_play">遊ぶ</string>
+<string name="bookmark_view">表示</string>
+<string name="bookmark_edit">編集</string>
+<string name="bookmark_delete">削除</string>
+<string name="bookmark_empty">この文書に関するブックマークがありません</string>
+<!-- Settings tab -->
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="accounts">アカウント</string>
+<string name="accounts_summary">Google DocsのアクセスのためのGoogleアカウントを設定または変更</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="speech_engine">音声認識エンジン</string>
+<string name="speech_engine_summary">使用する音声エンジンを選択します</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="theme_title">テーマ</string>
+<string name="theme_summary">PDF-to-Speechのためのテーマを選択</string>
+<string name="sunny_blue">サニーブルー</string>
+<string name="clear_nigh">晴夜</string>
+<!-- Intent Handler -->
+<string name="maybenotpdftxtfile">ファイル拡張子が認識されていません。多分これは、サポートされている形式ではありません？</string>
+<!--
+		EULA strings (do not translate !)
+		The agreement is agreed upon in English: i_accept, i_decline, and eulat_title 
+		are all left in English.
+    -->
+<string name="i_accept">I Accept</string>
+<string name="i_decline">I Decline</string>
+<string name="eula_title">Pdf-to-Speech End User Agreement</string>
+<!-- End of EULA do not tranlate. -->
+<string name="auto_scroll">オートスクロール</string>
+<!-- New Strings -->
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="stream_select">オーディオストリームを選択</string>
+<string name="stream_select_description">PDF-を音声に変換ために使用するストリームを選択します。あなたは、PDFを音声に変換と音楽アプリごとに異なる​​音量を設定したい場合は音楽ストリームを避けてください。</string>
+<string name="alarm">アラーム</string>
+<string name="music">音楽</string>
+<string name="tones">トーン</string>
+<string name="notification">通知</string>
+<string name="system">システム</string>
+<string name="ring">リング</string>
+<string name="voice_call">音声電話</string>
+<string name="cd_global_progress">ファイルの グローバル 進歩がです</string>
+<string name="cd_current_sentence">現在 文</string>
+</resources>

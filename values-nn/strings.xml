@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+<!--
+    	Notes:  These notes can be left on the original document and the translations.  these 
+    	comments are wrapped in "commenting" symbols.  If there are any special instruction for
+    	the given string, they are located on the comment right above it.
+    	
+    	Text editors like Glassfish color-code this so it is much easier to follow.
+    	
+    	ONLY the text between tags needs translation.  
+    	Example:
+    	<string name="no_file_loaded">No file loaded</string>
+    	should be translated to 
+    	<string name="no_file_loaded">No se ha cargado un archivo</string>
+    	in spanish for example.
+    -->
+<!-- 
+		Please translate the app name for the given language.  In spanish this is called
+		PDF A Voz
+	 -->
+<string name="app_name">PDF til tale</string>
+<string name="now_playing_tab">Spilles nå</string>
+<string name="load_file_tab">last Arkiv</string>
+<string name="settings_tab">innstillinger</string>
+<string name="bookmark_tab">bokmerker</string>
+<string name="search_help">telefon / nettsøk</string>
+<!-- 
+    	content description string.  (content description strings are not displayed on the screen
+    	they are read using text-to-speech, so there is no constrain on their size and they don't
+    	need to match the capitalization of the source string )  
+    -->
+<string name="pdf_search">søk etter pdf-filer valgt, klikker du for å søke etter doc-filer</string>
+<string name="cd_search_edit_box">søk nettside </string>
+<!-- content description tag  -->
+<string name="search_web">Nettsøk</string>
+<string name="no_file_loaded">Ingen fil lastet</string>
+<!-- 10 characters max -->
+<string name="page">side</string>
+<string name="one">1</string>
+<!-- 10 characters max -->
+<string name="sentence_bar_text">setningen:</string>
+<!-- 10 characters max -->
+<string name="sentence">setningsmodus Antall</string>
+<!--
+		The cd_ in cd_prev_page_button means the text is read out loud, not displayed on the screen.
+		This is for the visually impared (Talkback app). The string is not sensitive to capitalization either
+    -->
+<string name="cd_next_page_button">Spill neste side</string>
+<string name="cd_prev_page_button">Spill forrige side</string>
+<string name="cd_next_sentence_button">spille neste setning</string>
+<string name="cd_prev_sentence_button">spille forrige setning</string>
+<string name="cd_play_button">spille</string>
+<!-- 15 characters max -->
+<string name="preview_options">endre setningen</string>
+<!-- 
+    	content description string  
+    -->
+<string name="doc_search">doc-fil søk valgt, klikker du for å sette søk for pdf-filer</string>
+<string name="wait_message">vennligst vent…</string>
+<string name="cloud_medium">Bla G Drive</string>
+<string name="recent_option">Vis Siste filer</string>
+<string name="all_gdocs">Vis alle Google Dokumenter</string>
+<string name="pdf_option">Vise PDF-filer</string>
+<string name="doc_option">Vis MS Doc filer</string>
+<string name="extracting_text_message">Trekke ut tekst fra dokumentet…</string>
+<!-- 20 characters maximum -->
+<string name="file_manager">File Manager</string>
+<!-- 20 characters maximum -->
+<string name="webtospeech">Web til tale</string>
+<!-- OCR stands for Optical Character Recognition -->
+<string name="snappic">OCR Bilde</string>
+<!-- 20 characters maximum -->
+<string name="clear_recent_str">Slett nylig Liste</string>
+<!-- 20 characters maximum -->
+<string name="recent_files">"siste filer</string>
+<string name="open_new_file">Åpne ny fil</string>
+<string name="cloud_medium_label">G Drive</string>
+<string name="recent_option_label">siste filer</string>
+<string name="all_gdocs_label">Alle Google Dokumenter</string>
+<string name="pdf_option_label">PDF-filer</string>
+<string name="doc_option_label">MS doc-filer</string>
+<string name="file_chooser_install_message">"Du trenger en filveljarknappen. Jeg skal lede deg til IO Manager, men du kan installere hvilken som helst annen filveljarknappen også. Trykk OK for å gå til Android Market."</string>
+<string name="ok">OK</string>
+<string name="no_camera_error">Ingen kamera oppdaget på enheten</string>
+<string name="url_instruction">Inn Lenkeadressen:</string>
+<string name="bad_http_address">Dette er ikke en webkobling</string>
+<string name="go">gå</string>
+<string name="cancel">Avbryt</string>
+<string name="network_error">Nettverksfeil: det kan ikke være en Internett-tilkobling.</string>
+<string name="play_file">Spill av fil</string>
+<string name="delete_from_recent_list">Slett fra nyere liste</string>
+<string name="delete_from_phone">Slett fra telefonen</string>
+<string name="cloud_feature_is_off">Leser tekst fra bilder er deaktivert fordi skyen funksjonen er deaktivert. For å aktivere, gå til fanen Innstillinger, og klikk "Cloud funksjoner"</string>
+<string name="how_to_load_file_message">Trykk Få fil for å laste et dokument</string>
+<string name="error_loading_pdf">Feil ved lasting av dokumentet</string>
+<string name="error_loading_pdf">En feil skjedde under forsøket på å åpne PDF-filen.</string>
+<!-- 20 characters max -->
+<string name="authorepeat">autorepetisjon</string>
+<!-- 20 characters max -->
+<string name="no_loop">enkelt Spill</string>
+<!-- 20 characters max -->
+<string name="copy">Kopier</string>
+<!-- 20 characters max -->
+<string name="gesture_help">Bevegelsen Hjelp</string>
+<!-- 20 characters max -->
+<string name="replace">Erstatt</string>
+<!-- 20 characters max -->
+<string name="view_pdf">Vis Doc</string>
+<!-- 20 characters max -->
+<string name="bookmark">bokmerke</string>
+<string name="cd_bookmark_comment">Enter forplikte å være assosiert med dette bokmerket</string>
+<!-- 20 characters max -->
+<string name="file">Arkiv: </string>
+<!-- 20 characters max -->
+<string name="save">Lagre</string>
+<!-- 20 characters max -->
+<string name="dismiss">avskjedige</string>
+<string name="application_not_available">Ingen applikasjoner</string>
+<!--
+		These next two string are added together.  Example for PDF:
+		This device needs a PDF Viewer.  Click OK to go to the market and download an app
+		Example for Doc file
+		This device needs a MS Word Viewer.  Click OK to go to the market and download an app
+		The file type are hard coded and don't need translation
+    -->
+<string name="reader_install_message">Denne enheten trenger en %1$s Viewer.Klikk OK for å gå til markedet og laste ned en app</string>
+<string name="gesture_instructions">Tegn figurene nedenfor for å snarvei til noen av Pdf-til-tale \'s funksjoner. Du kan øve på bevegelser i denne skjermen.</string>
+<string name="gesture_up">Neste side</string>
+<string name="gesture_down">side ned</string>
+<string name="gesture_left">Neste setningsmodus</string>
+<string name="gesture_right">Forrige Side</string>
+<string name="gesture_play">Spill og pause</string>
+<!--
+Accesibility tags, size does not matter. The string should describe the action performed by the gesture
+This video shows each gesture.
+http://www.youtube.com/watch?v=0hW-cHv_8-o
+    -->
+<string name="cd_gesture_up">GBevegelsen deg. Spiller neste side. starte med finneren nederst, gå opp, deretter en skarp sving ned som om å lage et stort hode pil.</string>
+<string name="cd_gesture_down">Bevegelsen deg. Spiller forrige side. starte med finneren på toppen, gå ned, deretter en skarp sving opp som om å lage et stort hode pil.</string>
+<string name="cd_gesture_left">Spill neste setning. sveipe finder fra høyre til venstre.</string>
+<string name="cd_gesture_right">Spill forrige setning. sveiper finder fra venstre til høyre.</string>
+<string name="cd_gesture_play">Spill av eller pause gest. begynne øverst peiling til høyre, deretter en skarp sving til venstre. Skal ligne en lek symbol.</string>
+<string name="selected_gesture">Valgt gest: </string>
+<!-- Find Replace Activity strings. -->
+<string name="bad_pattern">"Dette mønsteret mislykkes syntaks."</string>
+<string name="replace_phrase">Skriver erstatte uttrykket:</string>
+<string name="delete">Slett</string>
+<string name="advanced_find_replace">mønsteret</string>
+<!-- at most 10 characters (abbreviate if needed) -->
+<string name="replace_key">Skriver erstatte key:</string>
+<string name="no_replace_rules">Det er ingen regler for Finn/Erstatt</string>
+<string name="replace_rules">Erstatt Regler</string>
+<!-- at most 15 characters (abbreviate if needed) -->
+<string name="adv">Avansert</string>
+<string name="cd_replaced_with">erstattet med</string>
+<string name="clear">Tøm liste</string>
+<string name="find_replace_list">De eksisterende søk/erstatt regler er gjengitt nedenfor</string>
+<string name="find_replace_help">Hjelp</string>
+<string name="find_replace_help">Hjelp</string>
+<!-- 	at most 10 characters (abbreviate if needed)  -->
+<string name="case_sensitive">Match saken</string>
+<!--
+		This MC should be an abrebiation of Match Case.  Example in spanish:
+		Mayuscula, with its abrebiation M 
+    -->
+<string name="shrt_case">sak</string>
+<string name="find_replace_help">Hjelp</string>
+<string name="find_replace_help">Hjelp</string>
+<!--  -->
+<string name="device_medium">Bla Phone av bagasje</string>
+<string name="label">etiketten</string>
+<string name="folder">Folder</string>
+<string name="cd_play_language_demo">spille språk demoen</string>
+<string name="cd_buy">kjøpe</string>
+<!-- at most 15 characters (abbreviate if needed) -->
+<string name="comment">kommentar</string>
+<!-- at most 15 characters (abbreviate if needed) -->
+<string name="sentence_str">setningsmodus:</string>
+<string name="cd_bookmark_row_more_options">flere alternativer</string>
+<!--
+		The next string are on the Settings screen.  The title string are constrained to
+		21 characters.  The summary description (these are the ones that end in _summary like
+		language_summary ) has no constrain.
+    -->
+<!-- Strings to promote pdf-to-speech -->
+<string name="promote_pdf_to_speech">Fremme Dokumenter-To-tale</string>
+<string name="no_email_sender_app_found">Ingen Email Sender App Funnet</string>
+<string name="share">Fortell vennene dine om Dokumenter-To-Speech</string>
+<string name="recomend_pdf_to_speech">Anbefaling om å bruke Dokumenter-To-tale app.</string>
+<string name="check_out_pdf_to_speech">Sjekk ut Dokumenter-til-tale.</string>
+<string name="reads_your_pdfs">Det vil lese dokumentene dine med tekst-til-tale og mer.</string>
+<string name="pdf_website">Dokumenter-To-tale nettside</string>
+<!-- Strings for settings -->
+<string name="voice_settings">stemmen</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="language">språk</string>
+<string name="language_summary">Velg språket som tilsvarer dokumentene språk</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="speed_pitch">tale Fart og banen</string>
+<string name="speed_pitch_summary">Stiller talen hastighet og tonehøyde</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="read_page_title">Les Sidetall</string>
+<string name="read_page_number">Nevn sidenummer i begynnelsen av hver side</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="extract_header_title">Nevn Topptekst</string>
+<string name="extract_header_summary">Hvis aktivert, er overskriften på hver side lese</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="extract_footer_title">Nevn bunntekst</string>
+<string name="extract_footer_summary">hvis aktivert, er bunnteksten på hver side lese</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="play_over_media">Spill over Media</string>
+<string name="play_over_media_summary">Når valgt vil spille over musikkspillere og andre medier apps</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="look_and_feel_pref_cat">Utseende og preg</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="under_the_hood_pref_cat">Henhold forsiktig dekselet</string>
+<!-- at most 21 characters (abbreviate if needed) (Dialog Title) -->
+<string name="select_google_account_title">Velg en Google-konto</string>
+<string name="cloud_feature">Cloud funksjoner</string>
+<string name="cloud_feature_description">Aktiver OCR på bilder og PDF-filer (Krever Google-konto)</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="text_extractor_title">Velg Tekst uttrekker verktøyet</string>
+<string name="text_extractor_summary">Velger teksten extractor verktøyet</string>
+<!-- at most 21 characters (abbreviate if needed) (Dialog Title) -->
+<string name="txt_codec_title">Velg Tekst kodek</string>
+<string name="txt_codec_summary">Velger koden som brukes for tekst-filer (txt)</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="promo_pref_cat">promoer</string>
+<string name="svox_summary">SVOX gir mykere stemmer ideelt å lese lange dokumenter</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="svoxpromo">Prøv SVOX</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="clear_cache">Clear Cache</string>
+<string name="clear_cache_option">Document cache raskere lesing, men kan vera rydda sikre nye konfigurasjonsendringer trer i kraft</string>
+<string name="text_extraction_info_pdfbox">bruker telefonen til å trekke ut teksten, slik at filen aldri forlater telefonen. Verktøyet er flinke til å trekke ut tekst fra dokumenter med tekst kolonner, men det er ikke bra i å trekke ut tekst fra bilder</string>
+<string name="text_extraction_info_googleocr">er en tjeneste i skyen.Dokumentet vil bli transportert trygt ved hjelp av SSL-protokollen til Google Dokumenter tjenester. Tjenesten er godt å trekke ut tekst fra bilder, og fra PDF-filer som PdfBox ikke kan lese. OCR-tjenesten er i betaversjon, og har en kvote, så kan det avvise forespørsler hvis brukt for ofte.</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="about">om</string>
+<!-- at most 21 characters (abbreviate if needed) (Dialog Title) -->
+<string name="select_language">Velg språk</string>
+<string name="lang_error">Kunne ikke få språk som støttes av telefonen.</string>
+<string name="speechspeed">leseren tilgang</string>
+<string name="pages_cached">Sider bufrede:</string>
+<string name="cache_notice">Denne app lagrer tekst fra dokumentene å laste deretter raskere andre gang rundt. Ønsker du å tømme bufferen?
+    </string>
+<string name="dont_clear_cache">"Ikke Tøm buffer"</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="adjust_speed_pitch_diag_title">Juster Speed ​​/ banen</string>
+<!-- at most 30 characters (abbreviate if needed) -->
+<string name="text_extractor_diag_title">Velg Tekst Utvinning søkemotoren</string>
+<!-- at most 30 characters (abbreviate if needed) -->
+<string name="text_code_diag_title">Velg Tekst kode</string>
+<!-- at most 30 characters (abbreviate if needed) -->
+<string name="clear_cache_diag_title">Tøm buffer</string>
+<!-- About pdf-to-speech dialog -->
+<string name="about_notice"> 
+    	Versjon %1$s \ n
+    	Opphavsrett © 2010 Jeremy Villalobos. \ N
+       	
+    </string>
+<string name="license">lisens</string>
+<string name="credits">studiepoeng</string>
+<string name="pitch">tonehøyde</string>
+<string name="default_button">som standard</string>
+<!-- Speaker Service -->
+<string name="playing">spille </string>
+<string name="service_started">Tjenesten har startet</string>
+<string name="document_done">dokumentet er ferdig</string>
+<string name="title">Tittel:</string>
+<!-- PageReader Service -->
+<string name="uploading_pic_to_cloud">Laster opp filen til Cloud</string>
+<string name="text_extraction_page">"Tekst Extraction. side:"</string>
+<string name="page_reader_started">Tekst Utvinning Startet</string>
+<string name="get_text_from_cloud">hente tekst</string>
+<string name="extracting_text">trekke ut tekst</string>
+<string name="page_read">side</string>
+<string name="empty_file_list">Ingen filer i denne mappen</string>
+<!-- Bookmark Fragment -->
+<string name="use_cloud_disabled">Sky bruk er deaktivert, derfor valgte filen ikke kan leses.</string>
+<string name="bookmark_options_title">bokmerkemenyen</string>
+<string name="bookmark_play">Spill</string>
+<string name="bookmark_view">Vis</string>
+<string name="bookmark_edit">redigere</string>
+<string name="bookmark_delete">Slett</string>
+<string name="bookmark_empty">Det er ingen bokmerker i dette dokumentet</string>
+<!-- Settings tab -->
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="accounts">kontoer</string>
+<string name="accounts_summary">Angi eller endre din Google-konto for Google Docs tilgang</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="speech_engine">tale Engine</string>
+<string name="speech_engine_summary">Velg hvilke tale-motor å bruke</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="theme_title">tema</string>
+<string name="theme_summary">Velg et tema for Pdf-til-tale</string>
+<string name="sunny_blue">Sunny Blå</string>
+<string name="clear_nigh">klart Night</string>
+<!-- Intent Handler -->
+<string name="maybenotpdftxtfile">Filtypen er gjenkjenner. Kanskje dette er ikke et støttet format?</string>
+<!--
+		EULA strings (do not translate !)
+		The agreement is agreed upon in English: i_accept, i_decline, and eulat_title 
+		are all left in English.
+    -->
+<string name="i_accept">I Accept</string>
+<string name="i_decline">I Decline</string>
+<string name="eula_title">Pdf-to-Speech End User Agreement</string>
+<!-- End of EULA do not tranlate. -->
+<string name="auto_scroll">Auto Scroll</string>
+<!-- New Strings -->
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="stream_select">Velg Audio Stream</string>
+<string name="stream_select_description">Velg hvilket stream å bruke for Pdf-til-tale. Unngå MUSIC stream hvis du ønsker å sette et annet volum for Pdf-til-tale og musikk app.</string>
+<string name="alarm">Alarmklokke</string>
+<string name="music">Musikk</string>
+<string name="tones">tonene</string>
+<string name="notification">Varsling</string>
+<string name="system">systemet</string>
+<string name="ring">ringen</string>
+<string name="voice_call">taleanrop ved</string>
+<string name="cd_global_progress">Filens global fremgang er</string>
+<string name="cd_current_sentence">gjeldende setning</string>
+</resources>

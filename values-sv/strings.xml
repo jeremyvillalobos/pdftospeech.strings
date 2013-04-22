@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+<!--
+    	Notes:  These notes can be left on the original document and the translations.  these 
+    	comments are wrapped in "commenting" symbols.  If there are any special instruction for
+    	the given string, they are located on the comment right above it.
+    	
+    	Text editors like Glassfish color-code this so it is much easier to follow.
+    	
+    	ONLY the text between tags needs translation.  
+    	Example:
+    	<string name="no_file_loaded">No file loaded</string>
+    	should be translated to 
+    	<string name="no_file_loaded">No se ha cargado un archivo</string>
+    	in spanish for example.
+    -->
+<!-- 
+		Please translate the app name for the given language.  In spanish this is called
+		PDF A Voz
+	 -->
+<string name="app_name">PDF till tal</string>
+<string name="now_playing_tab">nu spelas</string>
+<string name="load_file_tab">Load File</string>
+<string name="settings_tab">inställningar</string>
+<string name="bookmark_tab">bokmärken</string>
+<string name="search_help">telefon/webbsökning</string>
+<!-- 
+    	content description string.  (content description strings are not displayed on the screen
+    	they are read using text-to-speech, so there is no constrain on their size and they don't
+    	need to match the capitalization of the source string )  
+    -->
+<string name="pdf_search">Sök efter pdf markerade filer, klicka för att söka efter doc-filer</string>
+<string name="cd_search_edit_box">sök webb </string>
+<!-- content description tag  -->
+<string name="search_web">Sök webben</string>
+<string name="no_file_loaded">Ingen fil laddas</string>
+<!-- 10 characters max -->
+<string name="page">sidan</string>
+<string name="one">1</string>
+<!-- 10 characters max -->
+<string name="sentence_bar_text">mening:</string>
+<!-- 10 characters max -->
+<string name="sentence">mening nummer</string>
+<!--
+		The cd_ in cd_prev_page_button means the text is read out loud, not displayed on the screen.
+		This is for the visually impared (Talkback app). The string is not sensitive to capitalization either
+    -->
+<string name="cd_next_page_button">Spela nästa sida</string>
+<string name="cd_prev_page_button">Spela föregående sida</string>
+<string name="cd_next_sentence_button">spela nästa mening</string>
+<string name="cd_prev_sentence_button">spela föregående mening</string>
+<string name="cd_play_button">spela</string>
+<!-- 15 characters max -->
+<string name="preview_options">ändra mening</string>
+<!-- 
+    	content description string  
+    -->
+<string name="doc_search">doc-fil sök markerad klickar för att ställa söka efter pdf-filer</string>
+<string name="wait_message">vänta…</string>
+<string name="cloud_medium">Bläddra G enhet</string>
+<string name="recent_option">Visa senaste filer</string>
+<string name="all_gdocs">Visa alla Google Dokument</string>
+<string name="pdf_option">Visa PDF-filer</string>
+<string name="doc_option">Visa MS DOC-filer</string>
+<string name="extracting_text_message">Extrahera text från dokument…</string>
+<!-- 20 characters maximum -->
+<string name="file_manager">filhanterare</string>
+<!-- 20 characters maximum -->
+<string name="webtospeech">Webb-till-tal</string>
+<!-- OCR stands for Optical Character Recognition -->
+<string name="snappic">OCR Bild</string>
+<!-- 20 characters maximum -->
+<string name="clear_recent_str">Klart senaste listan</string>
+<!-- 20 characters maximum -->
+<string name="recent_files">"nya filer</string>
+<string name="open_new_file">Öppna ny fil</string>
+<string name="cloud_medium_label">G enhet</string>
+<string name="recent_option_label">nya filer</string>
+<string name="all_gdocs_label">Alla Google Dokument</string>
+<string name="pdf_option_label">PDF-filer</string>
+<string name="doc_option_label">MS DOC-filer</string>
+<string name="file_chooser_install_message">"Du behöver en fil chooser. Jag ska leda dig till IO chef men du kan installera någon annan filväljaren också. Tryck på OK för att gå till Android Butiken."</string>
+<string name="ok">OK</string>
+<string name="no_camera_error">Ingen kamera upptäckt på enheten</string>
+<string name="url_instruction">Ange länkadress:</string>
+<string name="bad_http_address">Detta är inte en webblänk</string>
+<string name="go">gå</string>
+<string name="cancel">Avbryt</string>
+<string name="network_error">Nätverksfel: det kan inte vara en Internet-anslutning.</string>
+<string name="play_file">Spela fil</string>
+<string name="delete_from_recent_list">Bort från senaste listan</string>
+<string name="delete_from_phone">Radera från telefonen</string>
+<string name="cloud_feature_is_off">Läsa text från bilder är avaktiverat eftersom molnet är inaktiverad. För att aktivera, gå till fliken Inställningar och klicka på "Cloud funktioner"</string>
+<string name="how_to_load_file_message">Tryck Få fil att ladda ett dokument</string>
+<string name="error_loading_pdf">Fel Laddar dokument</string>
+<string name="error_loading_pdf">Ett fel inträffade under försök att öppna PDF-filen.</string>
+<!-- 20 characters max -->
+<string name="authorepeat">Auto upprepning</string>
+<!-- 20 characters max -->
+<string name="no_loop">för uppspelning</string>
+<!-- 20 characters max -->
+<string name="copy">Kopiera</string>
+<!-- 20 characters max -->
+<string name="gesture_help">gest Hjälp</string>
+<!-- 20 characters max -->
+<string name="replace">Ersätt</string>
+<!-- 20 characters max -->
+<string name="view_pdf">Visa Doc</string>
+<!-- 20 characters max -->
+<string name="bookmark">bokmärke</string>
+<string name="cd_bookmark_comment">Ange åta sig att förknippas med detta bokmärke</string>
+<!-- 20 characters max -->
+<string name="file">Arkiv</string>
+<!-- 20 characters max -->
+<string name="save">Spara</string>
+<!-- 20 characters max -->
+<string name="dismiss">avfärda</string>
+<string name="application_not_available">Ingen ansökan tillgänglig</string>
+<!--
+		These next two string are added together.  Example for PDF:
+		This device needs a PDF Viewer.  Click OK to go to the market and download an app
+		Example for Doc file
+		This device needs a MS Word Viewer.  Click OK to go to the market and download an app
+		The file type are hard coded and don't need translation
+    -->
+<string name="reader_install_message">Denna enhet behöver en %1$s Betraktaren.Klicka på OK för att gå till marknaden och ladda ner en app</string>
+<string name="gesture_instructions">Rita former nedan genväg till några av Pdf-to-Speech \'s funktioner. Du kan öva gester på denna skärm.</string>
+<string name="gesture_up">Nästa sida</string>
+<string name="gesture_down">sida ner</string>
+<string name="gesture_left">nästa mening</string>
+<string name="gesture_right">Föregående Sida</string>
+<string name="gesture_play">Spela upp och pausa</string>
+<!--
+Accesibility tags, size does not matter. The string should describe the action performed by the gesture
+This video shows each gesture.
+http://www.youtube.com/watch?v=0hW-cHv_8-o
+    -->
+<string name="cd_gesture_up">Gest up.Plays nästa sida. börja med upphittaren i botten, gå upp, sedan en skarp sväng ned som om att ett stort huvud pil.</string>
+<string name="cd_gesture_down">Gest up.Plays föregående sida. börja med upphittaren upptill, gå ner, då en skarp sväng upp som om att ett stort huvud pil.</string>
+<string name="cd_gesture_left">Spela nästa mening.svepa Finder från höger till vänster.</string>
+<string name="cd_gesture_right">Spela föregående mening.Svep hitta från vänster till höger.</string>
+<string name="cd_gesture_play">Spela upp eller pausa gest. start vid det övre lagret till höger, då en skarp sväng till vänster. Ska likna en pjäs symbol.</string>
+<string name="selected_gesture">Valt gest: </string>
+<!-- Find Replace Activity strings. -->
+<string name="bad_pattern">"Detta mönster misslyckas syntax"</string>
+<string name="replace_phrase">Typ ersätta frasen:</string>
+<string name="delete">Ta bort</string>
+<string name="advanced_find_replace">mönster</string>
+<!-- at most 10 characters (abbreviate if needed) -->
+<string name="replace_key">Typ ersätta nyckel:</string>
+<string name="no_replace_rules">Det finns inga regler för Sök/Ersätt</string>
+<string name="replace_rules">Ersätt Regler</string>
+<!-- at most 15 characters (abbreviate if needed) -->
+<string name="adv">Avancerad</string>
+<string name="cd_replaced_with">ersätts med</string>
+<string name="clear">Töm lista</string>
+<string name="find_replace_list">Obstoječi Najdi/zamenjaj pravila so prikazani spodaj</string>
+<string name="find_replace_list">De befintliga sök / ersätt regler visas nedan</string>
+<string name="find_replace_help">Hjälp</string>
+<string name="find_replace_help">Hjälp</string>
+<!-- 	at most 10 characters (abbreviate if needed)  -->
+<string name="case_sensitive">matcha fall</string>
+<!--
+		This MC should be an abrebiation of Match Case.  Example in spanish:
+		Mayuscula, with its abrebiation M 
+    -->
+<string name="shrt_case">fall</string>
+<string name="find_replace_help">Hjälp</string>
+<string name="find_replace_help">Hjälp</string>
+<!--  -->
+<string name="device_medium">Bläddra telefonlagring</string>
+<string name="label">etikett</string>
+<string name="folder">mapp</string>
+<string name="cd_play_language_demo">spela språk demonstration</string>
+<string name="cd_buy">köpa</string>
+<!-- at most 15 characters (abbreviate if needed) -->
+<string name="comment">kommentar</string>
+<!-- at most 15 characters (abbreviate if needed) -->
+<string name="sentence_str">mening:</string>
+<string name="cd_bookmark_row_more_options">fler alternativ</string>
+<!--
+		The next string are on the Settings screen.  The title string are constrained to
+		21 characters.  The summary description (these are the ones that end in _summary like
+		language_summary ) has no constrain.
+    -->
+<!-- Strings to promote pdf-to-speech -->
+<string name="promote_pdf_to_speech">Främja Docs-till-tal</string>
+<string name="no_email_sender_app_found">Ingen Email Sender till mobilen Hittade</string>
+<string name="share">Berätta för dina vänner om Docs-till-tal</string>
+<string name="recomend_pdf_to_speech">Rekommendation att använda Docs-till-tal program.</string>
+<string name="check_out_pdf_to_speech">Kolla in Docs-till-tal.</string>
+<string name="reads_your_pdfs">Det kommer att läsa dina dokument med hjälp Text-till-tal och mycket mer.</string>
+<string name="pdf_website">Docs-till-tal webbplats</string>
+<!-- Strings for settings -->
+<string name="voice_settings">röst</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="language">språk</string>
+<string name="language_summary">Välj det språk som matchar dokument språket</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="speed_pitch">Tal Hastighet och Rastermått</string>
+<string name="speed_pitch_summary">Ställer talhastigheten och tonhöjd</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="read_page_title">Läs Sidnummer</string>
+<string name="read_page_number">Nämn sidnummer i början av varje sida</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="extract_header_title">Nämn Header</string>
+<string name="extract_header_summary">Om det är aktiverat, är rubriken på varje sida läses</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="extract_footer_title">Nämn sidfot</string>
+<string name="extract_footer_summary">om den är aktiverad, är sidfoten på varje sida läses</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="play_over_media">Spela över media</string>
+<string name="play_over_media_summary">Om markerad, kommer att spela över musikspelare och andra medier appar</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="look_and_feel_pref_cat">Utseende och känsla</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="under_the_hood_pref_cat">Under huven</string>
+<!-- at most 21 characters (abbreviate if needed) (Dialog Title) -->
+<string name="select_google_account_title">Väljer ett Google-konto</string>
+<string name="cloud_feature">Cloud funktioner</string>
+<string name="cloud_feature_description">Aktivera OCR på bilder och PDF-filer (Kräver Google-konto)</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="text_extractor_title">Välj Text Extractor verktyg</string>
+<string name="text_extractor_summary">Väljer texten avdragare verktyg</string>
+<!-- at most 21 characters (abbreviate if needed) (Dialog Title) -->
+<string name="txt_codec_title">Välj Txt Codec</string>
+<string name="txt_codec_summary">Väljer koden standard som används för textfiler(TXT)</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="promo_pref_cat">Promos</string>
+<string name="svox_summary">SVOX ger mjukare röster perfekt att läsa långa dokument</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="svoxpromo">Försök SVOX</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="clear_cache">Rensa cacheminne</string>
+<string name="clear_cache_option">Dokument cache snabbar upp behandlingen, men kan flyttas undan för att säkerställa nya konfigurationsändringar träder i kraft</string>
+<string name="text_extraction_info_pdfbox">använder telefonen för att extrahera texten så filen aldrig lämnar telefonen. Verktyget är bra på att extrahera text från dokument med text kolumner, men det är inte bra på att extrahera text från bilder</string>
+<string name="text_extraction_info_googleocr">är en tjänst i molnet. I dokumentet kommer att transporteras säkert med SSL-protokollet till Google Dokument-tjänster. Tjänsten är bra för att extrahera text från bilder och från PDF-filer som PdfBox inte kan läsa. OCR Tjänsten är i betaversion och har en kvot, så kan det avvisa begäran om den används för oftais a service in the cloud.  The document will be transported securely using the SSL protocol to Google Docs services.  The service is good to extract text from images, and from pdfs that PdfBox cannot read.  The OCR service is in beta release and has a quota; so, it may reject requests if used too often</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="about">om</string>
+<!-- at most 21 characters (abbreviate if needed) (Dialog Title) -->
+<string name="select_language">Välj språk</string>
+<string name="lang_error">Kunde inte hämta språk som stöds av telefonen.</string>
+<string name="speechspeed">Reader hastighet</string>
+<string name="pages_cached">sidor cachade</string>
+<string name="cache_notice">Denna app-butiker text från dokument att ladda sedan snabbare andra gången runt. Vill du att rensa cacheminnet?</string>
+<string name="dont_clear_cache">"Rensar inte Cache"</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="adjust_speed_pitch_diag_title">Justera hastigheten /Rastermått</string>
+<!-- at most 30 characters (abbreviate if needed) -->
+<string name="text_extractor_diag_title">Välj Engine text extrahering</string>
+<!-- at most 30 characters (abbreviate if needed) -->
+<string name="text_code_diag_title">Välj Text-kod</string>
+<!-- at most 30 characters (abbreviate if needed) -->
+<string name="clear_cache_diag_title">Rensa cache</string>
+<!-- About pdf-to-speech dialog -->
+<string name="about_notice"> 
+    	Versionen %1$s \ n
+    	Copyright © 2010 Jeremy Villalobos.\n
+       
+       	
+    </string>
+<string name="license">licens</string>
+<string name="credits">krediter</string>
+<string name="pitch">Pitch</string>
+<string name="default_button">Standardinställningen</string>
+<!-- Speaker Service -->
+<string name="playing">Spela</string>
+<string name="service_started">Tjänsten har startats</string>
+<string name="document_done">dokument klar</string>
+<string name="title">titel:</string>
+<!-- PageReader Service -->
+<string name="uploading_pic_to_cloud">Uppladdning fil till Cloud</string>
+<string name="text_extraction_page">"text Extraction.Page"</string>
+<string name="page_reader_started">Text Extraktion igång</string>
+<string name="get_text_from_cloud">hämta text</string>
+<string name="extracting_text">extrahera text</string>
+<string name="page_read">sida</string>
+<string name="empty_file_list">Inga filer i den här mappen</string>
+<!-- Bookmark Fragment -->
+<string name="use_cloud_disabled">Moln användning är inaktiverad därför den valda filen inte kan läsas.</string>
+<string name="bookmark_options_title">bokmärke Meny</string>
+<string name="bookmark_play">Spela</string>
+<string name="bookmark_view">Visa</string>
+<string name="bookmark_edit">Redigera</string>
+<string name="bookmark_delete">Ta bort</string>
+<string name="bookmark_empty">Det finns inga bokmärken för det här dokumentet</string>
+<!-- Settings tab -->
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="accounts">konton</string>
+<string name="accounts_summary">Ange eller ändra ditt Google-konto för Google Docs tillgång</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="speech_engine">tal-motor</string>
+<string name="speech_engine_summary">Välj vilken tal-motor för att använda</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="theme_title">tema</string>
+<string name="theme_summary">Välj ett tema för pdf-till-tal</string>
+<string name="sunny_blue">Sunny Blå</string>
+<string name="clear_nigh">klar natt</string>
+<!-- Intent Handler -->
+<string name="maybenotpdftxtfile">Filändelsen är recognize.Maybe inte detta är inte ett format som stöds?</string>
+<!--
+		EULA strings (do not translate !)
+		The agreement is agreed upon in English: i_accept, i_decline, and eulat_title 
+		are all left in English.
+    -->
+<string name="i_accept">I Accept</string>
+<string name="i_decline">I Decline</string>
+<string name="eula_title">Pdf-to-Speech End User Agreement</string>
+<!-- End of EULA do not tranlate. -->
+<string name="auto_scroll">Auto Scroll</string>
+<!-- New Strings -->
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="stream_select">Välj Ljud Stream</string>
+<string name="stream_select_description">Välj vilken ström som ska användas för Pdf-to-Speech. Undvik MUSIK ström om du vill ställa in en annan volym för pdf-to-Speech och musiken App.</string>
+<string name="alarm">väckarklocka</string>
+<string name="music">Musik</string>
+<string name="tones">Tones</string>
+<string name="notification">anmälan</string>
+<string name="system">System</string>
+<string name="ring">ringen</string>
+<string name="voice_call">röstsamtalet</string>
+<string name="cd_global_progress">Filen globala framstegen är</string>
+<string name="cd_current_sentence">aktuella meningen</string>
+</resources>

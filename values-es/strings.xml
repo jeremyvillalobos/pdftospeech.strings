@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+This tranlation was done by Jeremy Villalobs
+Esta traduccion fue hecha por Jeremy villalobos
+-->
+<resources>
+<string name="app_name">PDF a Voz</string>
+<string name="now_playing_tab">Reproduciendo</string>
+<string name="load_file_tab">Cargar Archivo</string>
+<string name="settings_tab">Configuración</string>
+<string name="bookmark_tab">Marcadores</string>
+<string name="search_help">teléfono / búsqueda de la web</string>
+<string name="pdf_search">Establece si para buscar un archivo PDF o un archivo doc en la web</string>
+<string name="cd_search_edit_box">búsqueda en la Web</string>
+<string name="search_web">Busqueda en la Net</string>
+<string name="no_file_loaded">No existe el fichero cargado</string>
+<string name="page">Página </string>
+<string name="one">1</string>
+<string name="sentence_bar_text">Oración</string>
+<string name="sentence">Oración </string>
+<string name="cd_next_page_button">Reproducir la página siguiente</string>
+<string name="cd_prev_page_button">Reproducir la página anterior</string>
+<string name="cd_next_sentence_button">reproducir la siguiente oración</string>
+<string name="cd_prev_sentence_button">reproducir la oración anterior</string>
+<string name="cd_play_button">reproducir</string>
+<string name="preview_options">Cambiar oración</string>
+<string name="doc_search">Búsqueda archivo doc seleccionado, haga clic para establecer la búsqueda de archivos pdf</string>
+<string name="wait_message">Por favor espere…</string>
+<string name="cloud_medium">Buscar la unidad G drive</string>
+<string name="recent_option">visualizarla Archivos recientes</string>
+<string name="all_gdocs">Ver todos de Google Docs</string>
+<string name="pdf_option">visualizarla archivos PDF</string>
+<string name="doc_option">Visualizar archivos MS DOS</string>
+<string name="extracting_text_message"> Extrayendo texto del documento…</string>
+<string name="file_manager">Administrador de Archivos</string>
+<string name="webtospeech">Internet a voz</string>
+<string name="snappic">OCR de imágenes</string>
+<string name="clear_recent_str">Limpiar lista reciente</string>
+<string name="recent_files">"Archivos recientes</string>
+<string name="open_new_file">Abrir archivo nuevo</string>
+<string name="cloud_medium_label">GDrive</string>
+<string name="recent_option_label">Archivos recientes</string>
+<string name="all_gdocs_label">Todos los documentos de Google</string>
+<string name="pdf_option_label">Archivos PDF</string>
+<string name="doc_option_label">Archivos MS DOC</string>
+<string name="file_chooser_install_message">Va a necesitar un escogedor de archivo.  Voy a guiarlo a bajar IO Manager, pero puede bajar otro escogedor de archivos también..  Presione OK para ir al mercado de Android.</string>
+<string name="ok">OK</string>
+<string name="no_camera_error">Ninguna cámara se ha detectado en el dispositivo</string>
+<string name="url_instruction">Introduzca la dirección de enlace:</string>
+<string name="bad_http_address">Esto no es un enlace web</string>
+<string name="go">Ir</string>
+<string name="cancel">Cancelar</string>
+<string name="network_error">Error de red: puede que no haya una conexión a Internet.</string>
+<string name="play_file">Reproducir archivo</string>
+<string name="delete_from_recent_list">Borrar de lista de recientes</string>
+<string name="delete_from_phone">Borrar archivo del telofono</string>
+<string name="cloud_feature_is_off">Leyendo el texto de las imágenes esta deshabilitado de la nube, porque está deshabilitado,Para activarlo, vaya a la pestaña Configuración, y haga clic en"características de las nube"</string>
+<string name="how_to_load_file_message">Presione Abrir… para cargar un documento</string>
+<string name="error_loading_pdf">Error en Cargar el Documento</string>
+<string name="error_loading_pdf">Un error ha ocurrido al intentar abrir el archivo PDF.</string>
+<string name="authorepeat">Auto-repita</string>
+<string name="no_loop">No Auto-repita</string>
+<string name="copy">Copiar</string>
+<string name="gesture_help">Gesto de Ayuda</string>
+<string name="replace">Reemplazar</string>
+<string name="view_pdf">Ver Doc</string>
+<string name="bookmark">Marcador</string>
+<string name="cd_bookmark_comment">Escribir un comentario asociado con este marcador</string>
+<string name="file">Archivo</string>
+<string name="save">Guardar</string>
+<string name="dismiss">Retirar</string>
+<string name="application_not_available">Aplicación no esta disponible</string>
+<string name="reader_install_message">Este dispositivo no tiene un lector de %1$s. Haga clic en Aceptar para ir al mercado y descargar una aplicación</string>
+<string name="gesture_instructions">Dibuja las figuras de abajo para acceso directo a algunas de las funciones de PDF-to-Speech\'s. Usted puede practicar los gestos en esta pantalla.</string>
+<string name="gesture_up">Página siguiente</string>
+<string name="gesture_down">Página abajo</string>
+<string name="gesture_left">Siguiente oración</string>
+<string name="gesture_right">Página anterior</string>
+<string name="gesture_play">Reproducción y pausa</string>
+<string name="cd_gesture_up">Gesto hacia arriba.Reproduce la página siguiente.comenzar con el buscador en la parte inferior,subir, y luego un giro brusco hacia abajo como si estuviera haciendo una flecha de la cabeza grande.</string>
+<string name="cd_gesture_down">Gesto hacia abajo. Reproduce la página anterior. empezar con el dedo en la parte superior, vaya hacia abajo y luego una fuerte suba como si estuviera haciendo una flecha de la cabeza grande.</string>
+<string name="cd_gesture_left">Reproducir siguiente frase. Buscador de golpe de derecha a izquierda.</string>
+<string name="cd_gesture_right">Juega frase anterior.Buscador de golpe de izquierda a derecha.</string>
+<string name="cd_gesture_play">Reproducir o pausar gesto.comienzan a partir de la cima que lleva la derecha, luego un giro brusco a la izquierda. Debe parecerse a un símbolo de reproducción.</string>
+<string name="selected_gesture">Gesto Seleccionado:</string>
+<!-- Find Replace Activity strings.-->
+<string name="bad_pattern">"Este patrón fallo la sintaxis."</string>
+<string name="replace_phrase">Escriba la frase de reemplazo:</string>
+<string name="delete">borrar</string>
+<string name="advanced_find_replace">Patrón</string>
+<string name="case_sensitive">Coincidir Mayúscula</string>
+<string name="replace_key">Escriba la frase a reemplazar:</string>
+<string name="no_replace_rules">No hay reglas para Buscar / Reemplazar</string>
+<string name="replace_rules">Reemplazar las Reglas</string>
+<string name="adv">Avanzado</string>
+<string name="cd_replaced_with">Se sustituye por</string>
+<string name="clear">Limpiar Lista</string>
+<string name="find_replace_list">Las actuales Buscar/Reemplazar reglas que se muestran a continuación</string>
+<string name="find_replace_help">Ayuda</string>
+<string name="shrt_case">M</string>
+<string name="find_replace_help">Ayuda</string>
+<!-- -->
+<string name="device_medium">Ver almacenamiento del teléfono</string>
+<string name="label">etiqueta</string>
+<string name="folder">carpeta</string>
+<string name="cd_play_language_demo">reproducir domostracion de voz</string>
+<string name="cd_buy">comprar</string>
+<string name="comment">Comentario  </string>
+<string name="sentence_str">Oracion</string>
+<string name="cd_bookmark_row_more_options">más opciones</string>
+<!-- Strings to promote pdf-to-speech -->
+<string name="promote_pdf_to_speech">Promueve Pdf a Voz</string>
+<string name="no_email_sender_app_found">No hay Eviador de email</string>
+<string name="share">Dile a tus amigos acerca de Pdf A Voz</string>
+<string name="recomend_pdf_to_speech">Recomendacion para utilizar Documentos-A-Voz.</string>
+<string name="check_out_pdf_to_speech">Prueba el programa Documentos-A-Voz.</string>
+<string name="reads_your_pdfs">Lee tus archivos documentos utilizando la herramienta texto-a-voz de tu telefono.</string>
+<string name="pdf_website">Página de Internét de Documentos-A-Voz</string>
+<!-- Strings for settings -->
+<string name="voice_settings">Configuración de voz</string>
+<string name="language">Lenguaje</string>
+<string name="language_summary">Seleccione el lenguage que concuerde con el documento</string>
+<string name="speed_pitch">Tono y Velocidad de Voz</string>
+<string name="speed_pitch_summary">Ajusta el tono y la velocidad de la voz</string>
+<string name="read_page_title">Numero de Página</string>
+<string name="read_page_number">La mención de número de página al principio de cada página</string>
+<string name="extract_header_title">Encabezado</string>
+<string name="extract_header_summary">Si está habilitado, el encabezado de página se lee</string>
+<string name="extract_footer_title">Pie de Página</string>
+<string name="extract_footer_summary">Si está habilitado, el pie de página en cada página se lee</string>
+<string name="play_over_media">Sobre Audio</string>
+<string name="play_over_media_summary">Cuando está seleccionado, se reproducirá sobre el audio de otros programas</string>
+<string name="look_and_feel_pref_cat">Apariencia</string>
+<string name="under_the_hood_pref_cat">Ajustes Técnicos</string>
+<string name="select_google_account_title">Seleccione una Cuenta Google</string>
+<string name="cloud_feature">Nube</string>
+<string name="cloud_feature_description">Habilita OCR en los archivos de imágenes y PDF (Requiere cuenta de Google)</string>
+<string name="text_extractor_title">Extractor de Texto</string>
+<string name="text_extractor_summary">Seleccione un extractor de texto para documentos PDF</string>
+<string name="txt_codec_title">Seleccione Codec de Txt</string>
+<string name="txt_codec_summary">Seleccione el tipo de codigo para archivos de texto (txt)</string>
+<string name="promo_pref_cat">Promociones</string>
+<string name="svox_summary">Svox provee tonos de voz mas apropiados para leer documentos extensos</string>
+<string name="svoxpromo">Trate SVOX</string>
+<string name="clear_cache">Limpiar Cache</string>
+<string name="clear_cache_option">Limpiar Cache</string>
+<string name="text_extraction_info_pdfbox">utiliza el teléfono para extraer el texto,por lo que el archivo no sale el teléfono.La herramienta es buena para extraer texto de documentos con columnas de texto, pero no es bueno para extraer texto de imágenes.</string>
+<string name="text_extraction_info_googleocr">es un servicio en la nube. El documento será transportado de forma segura mediante el protocolo SSL para los servicios de Google Docs. El servicio es bueno para extraer texto de imágenes y de archivos PDF que Pdf Caja no puede leer. El servicio OCR se encuentra en versión beta y tiene una cuota, de modo que, de rechazar las solicitudes si se utiliza con demasiada frecuencia.</string>
+<string name="about">Acerca</string>
+<string name="select_language">Escoger Lenguaje</string>
+<string name="lang_error">No se pudo obtener los idiomas soportados por teléfono.</string>
+<string name="speechspeed">Velocidad de lectura:</string>
+<string name="pages_cached">Paginas guardadas:</string>
+<string name="cache_notice">Esta aplicación guarda texto de el documento para cargar la información mas rápido la segunda vez.  Quiere limpiar el cache ?</string>
+<string name="dont_clear_cache">No Limpiar Cache</string>
+<string name="adjust_speed_pitch_diag_title">Ajuste Velocidad/Tono</string>
+<string name="text_extractor_diag_title">Selecciona Extractor de Texto</string>
+<string name="text_code_diag_title">Selecciona Codigo de Texto</string>
+<string name="clear_cache_diag_title">Limpia el Cache</string>
+<!-- About pdf-to-speech dialog-->
+<string name="about_notice">Version %1$s \n Copyright © 2010 Jeremy Villalobos.
+        \n
+	</string>
+<string name="license">licencia</string>
+<string name="credits">Créditos</string>
+<string name="pitch">Tono de Voz</string>
+<string name="default_button">defecto</string>
+<!-- Speaker Service -->
+<string name="playing">Reproduciendo </string>
+<string name="service_started">Servicio se ha iniciado</string>
+<string name="document_done">Final del Documento</string>
+<string name="title">Título:</string>
+<!-- PageReader Service -->
+<string name="uploading_pic_to_cloud">Carga de archivos a la nube</string>
+<string name="text_extraction_page">Extracción de texto.  Página: </string>
+<string name="page_reader_started">Extracción de Texto Comenzó</string>
+<string name="get_text_from_cloud">Recuperando el texto</string>
+<string name="extracting_text">extracción de Texto</string>
+<string name="page_read"> pagina </string>
+<string name="empty_file_list">No hay archivos en esta carpeta</string>
+<!--Bookmark Fragment -->
+<string name="use_cloud_disabled">El uso de la nube esta desactivado, por lo tanto, el archivo seleccionado no se puede leer</string>
+<string name="bookmark_options_title">Menú de Marcador</string>
+<string name="bookmark_play">Reproducir</string>
+<string name="bookmark_view">Visualizar</string>
+<string name="bookmark_edit">Editar</string>
+<string name="bookmark_delete">Borrar</string>
+<string name="bookmark_empty">No hay favoritos para este documento</string>
+<!-- Settings tab -->
+<string name="accounts">Cuentas</string>
+<string name="accounts_summary">Establecer o cambiar su cuenta de Google para acceso a Google Docs</string>
+<string name="speech_engine">Motor de Voz</string>
+<string name="speech_engine_summary">Seleccione el motor de voz a utilizar</string>
+<string name="theme_title">Tema</string>
+<string name="theme_summary">Seleccione un tema para PDF a voz</string>
+<string name="sunny_blue">Cielo Azul</string>
+<string name="clear_nigh">Noche de Estrellas</string>
+<!--Intent Handler -->
+<string name="maybenotpdftxtfile">La extensión del archivo no fue reconocida¿ Tal vez este no es un formato que documentos a voz pueda leer ?</string>
+<!-- EULA strings (do not translate !) -->
+<string name="i_accept">I Accept</string>
+<string name="i_decline">I Decline</string> 
+<string name="eula_title">Pdf-to-Speech End User Agreement</string>
+<string name="auto_scroll">Auto Desplácese</string>
+
+<!-- New Strings -->
+<string name="stream_select">Canal de Audio</string>
+<string name="stream_select_description">Seleccione el canal que se utilizará para PDF A Voz . Evite utilizar el canal de música si desea configurar un volúmen diferente para PDF A Voz y la aplicación de música.</string>
+<string name="alarm">Alarma</string>
+<string name="music">Musica</string>
+<string name="tones">Tonos</string>
+<string name="notification">Notificación</string>
+<string name="system">Sistema</string>
+<string name="ring">Timbre</string>
+<string name="voice_call">Llamada de voz</string>
+
+<string name="cd_global_progress">El progreso global del archivo es </string>
+<string name="cd_current_sentence">Oracion actual </string>
+</resources>

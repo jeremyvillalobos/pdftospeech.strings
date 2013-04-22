@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+<!--
+    	Notes:  These notes can be left on the original document and the translations.  these 
+    	comments are wrapped in "commenting" symbols.  If there are any special instruction for
+    	the given string, they are located on the comment right above it.
+    	
+    	Text editors like Glassfish color-code this so it is much easier to follow.
+    	
+    	ONLY the text between tags needs translation.  
+    	Example:
+    	<string name="no_file_loaded">No file loaded</string>
+    	should be translated to 
+    	<string name="no_file_loaded">No se ha cargado un archivo</string>
+    	in spanish for example.
+    -->
+<!-- 
+		Please translate the app name for the given language.  In spanish this is called
+		PDF A Voz
+	 -->
+<string name="app_name"> PDF到語音PDF到語音
+  </string>
+<string name="now_playing_tab">現在播放</string>
+<string name="load_file_tab">加載文件</string>
+<string name="settings_tab">設置</string>
+<string name="bookmark_tab">書籤</string>
+<string name="search_help">電話/網絡搜索</string>
+<!-- 
+    	content description string.  (content description strings are not displayed on the screen
+    	they are read using text-to-speech, so there is no constrain on their size and they don't
+    	need to match the capitalization of the source string )  
+    -->
+<string name="pdf_search">搜索選擇的PDF文件，點擊搜索doc文件</string>
+<string name="cd_search_edit_box">搜索Web</string>
+<!-- content description tag  -->
+<string name="search_web">搜索網頁 </string>
+<string name="no_file_loaded">沒有加載的文件</string>
+<!-- 10 characters max -->
+<string name="page">頁</string>
+<string name="one">1</string>
+<!-- 10 characters max -->
+<string name="sentence_bar_text">句子:</string>
+<!-- 10 characters max -->
+<string name="sentence">句數</string>
+<!--
+		The cd_ in cd_prev_page_button means the text is read out loud, not displayed on the screen.
+		This is for the visually impared (Talkback app). The string is not sensitive to capitalization either
+    -->
+<string name="cd_next_page_button">播放下頁</string>
+<string name="cd_prev_page_button">播放上頁</string>
+<string name="cd_next_sentence_button">玩下句</string>
+<string name="cd_prev_sentence_button">玩前面的句子</string>
+<string name="cd_play_button"> 玩 </string>
+<!-- 15 characters max -->
+<string name="preview_options">改變句子</string>
+<!-- 
+    	content description string  
+    -->
+<string name="doc_search">doc文件搜索選中，單擊設置搜索的PDF文件</string>
+<string name="wait_message">請稍候</string>
+<string name="cloud_medium">瀏覽GDrive的</string>
+<string name="recent_option">查看最近使用的文件</string>
+<string name="all_gdocs">查看所有的谷歌文檔</string>
+<string name="pdf_option">查看PDF文件</string>
+<string name="doc_option">查看MS文檔文件</string>
+<string name="extracting_text_message">從文件中提取文本</string>
+<!-- 20 characters maximum -->
+<string name="file_manager">文件管理器</string>
+<!-- 20 characters maximum -->
+<string name="webtospeech">網絡語音轉換</string>
+<!-- OCR stands for Optical Character Recognition -->
+<string name="snappic">OCR圖片</string>
+<!-- 20 characters maximum -->
+<string name="clear_recent_str">清除最近的清單</string>
+<!-- 20 characters maximum -->
+<string name="recent_files">“最近的文件</string>
+<string name="open_new_file">打開“新建文件”</string>
+<string name="cloud_medium_label">GDrive的</string>
+<string name="recent_option_label">最近使用的文件</string>
+<string name="all_gdocs_label">所有的谷歌文檔</string>
+<string name="pdf_option_label">PDF文件</string>
+<string name="doc_option_label">MS Doc文件</string>
+<string name="file_chooser_install_message">市場“。</string>
+<string name="ok">行</string>
+<string name="no_camera_error">在設備沒有檢測到攝像頭</string>
+<string name="url_instruction">輸入鏈接地址:</string>
+<string name="bad_http_address">這不是一個網頁鏈接</string>
+<string name="go">去</string>
+<string name="cancel">取消</string>
+<string name="network_error">網絡錯誤：有可能無法連接到Internet</string>
+<string name="play_file">播放文件</string>
+<string name="delete_from_recent_list">從最近使用的列表中刪除</string>
+<string name="delete_from_phone">從手機中刪除</string>
+<string name="cloud_feature_is_off">閱讀文本，圖像禁用，因為雲計算功能被禁用。要啟用，進入“設置”選項卡，然後單擊“雲功能”</string>
+<string name="how_to_load_file_message">按獲取文件加載的文件</string>
+<string name="error_loading_pdf">錯誤加載文件</string>
+<string name="error_loading_pdf"> 試圖打開PDF文件時發生錯誤。</string>
+<!-- 20 characters max -->
+<string name="authorepeat">自動重複</string>
+<!-- 20 characters max -->
+<string name="no_loop">單次播放</string>
+<!-- 20 characters max -->
+<string name="copy">複製</string>
+<!-- 20 characters max -->
+<string name="gesture_help">手勢幫助</string>
+<!-- 20 characters max -->
+<string name="replace">更換</string>
+<!-- 20 characters max -->
+<string name="view_pdf">查看doc</string>
+<!-- 20 characters max -->
+<string name="bookmark">收藏</string>
+<string name="cd_bookmark_comment">與此書籤輸入commet</string>
+<!-- 20 characters max -->
+<string name="file">文件：</string>
+<!-- 20 characters max -->
+<string name="save">保存</string>
+<!-- 20 characters max -->
+<string name="dismiss">解僱 </string>
+<string name="application_not_available">應用程序 </string>
+<!--
+		These next two string are added together.  Example for PDF:
+		This device needs a PDF Viewer.  Click OK to go to the market and download an app
+		Example for Doc file
+		This device needs a MS Word Viewer.  Click OK to go to the market and download an app
+		The file type are hard coded and don't need translation
+    -->
+<string name="reader_install_message">該設備需要 %1$s 查看器.單擊“確定”到去市場上下載一個應用程序</string>
+<string name="gesture_instructions">畫出下面的形狀，捷徑資料一些PDF到語音\“功能的。在此屏幕上，你可以練習的手勢。</string>
+<string name="gesture_up">下一頁</string>
+<string name="gesture_down">Page Down鍵</string>
+<string name="gesture_left">下一句</string>
+<string name="gesture_right">上一頁</string>
+<string name="gesture_play">播放和暫停</string>
+<!--
+Accesibility tags, size does not matter. The string should describe the action performed by the gesture
+This video shows each gesture.
+http://www.youtube.com/watch?v=0hW-cHv_8-o
+    -->
+<string name="cd_gesture_up">手勢。播放下一個頁面。開始用取景器的底部，然後一個急轉彎，如果一個大箭頭。</string>
+<string name="cd_gesture_down">手勢。播放上一個頁面。開始用取景器的頂部，然後一個急轉彎，如果一個大箭頭。</string>
+<string name="cd_gesture_left">播放下一個句子。刷卡取景器由右至左。</string>
+<string name="cd_gesture_right"> 播放前一句。由左到右的滑動取景器。</string>
+<string name="cd_gesture_play">播放或暫停的手​​勢。頂部軸承開始，然後到左邊的一個急轉彎。應該像一出戲的象徵。</string>
+<string name="selected_gesture">選擇的姿態：</string>
+<!-- Find Replace Activity strings. -->
+<string name="bad_pattern">"這種模式失敗的語法"</string>
+<string name="replace_phrase">鍵入替換詞組:</string>
+<string name="delete">刪除</string>
+<string name="advanced_find_replace">模式</string>
+<!-- at most 10 characters (abbreviate if needed) -->
+<string name="replace_key">鍵入替換鍵:</string>
+<string name="no_replace_rules">有沒有規則的“查找/替換”</string>
+<string name="replace_rules">替換規則</string>
+<!-- at most 15 characters (abbreviate if needed) -->
+<string name="adv">推進</string>
+<string name="cd_replaced_with">替換為</string>
+<string name="clear"> 清除列表</string>
+<string name="find_replace_list">查找/替換現有的規則如下</string>
+<string name="find_replace_help">幫助</string>
+<string name="find_replace_help">幫助</string>
+<!-- 	at most 10 characters (abbreviate if needed)  -->
+<string name="case_sensitive">匹配情況</string>
+<!--
+		This MC should be an abrebiation of Match Case.  Example in spanish:
+		Mayuscula, with its abrebiation M 
+    -->
+<string name="shrt_case">案件</string>
+<string name="find_replace_help">幫助</string>
+<string name="find_replace_help">幫助</string>
+<!--  -->
+<string name="device_medium">瀏覽手機存儲</string>
+<string name="label">標籤</string>
+<string name="folder">夾</string>
+<string name="cd_play_language_demo">發揮語言演示</string>
+<string name="cd_buy">購買</string>
+<!-- at most 15 characters (abbreviate if needed) -->
+<string name="comment">點評</string>
+<!-- at most 15 characters (abbreviate if needed) -->
+<string name="sentence_str">一句話：</string>
+<string name="cd_bookmark_row_more_options">更多選項</string>
+<!--
+		The next string are on the Settings screen.  The title string are constrained to
+		21 characters.  The summary description (these are the ones that end in _summary like
+		language_summary ) has no constrain.
+    -->
+<!-- Strings to promote pdf-to-speech -->
+<string name="promote_pdf_to_speech">促進文件到語音</string>
+<string name="no_email_sender_app_found">沒有電子郵件的發件人應用程序的資料符合</string>
+<string name="share">有關文件，語音告訴你的朋友</string>
+<string name="recomend_pdf_to_speech">速遞熱力推薦使用文件到語音的應用程序。</string>
+<string name="check_out_pdf_to_speech">退房文件語音。</string>
+<string name="reads_your_pdfs">使用文本到語音轉換，更會認真閱讀您的文件。</string>
+<string name="pdf_website">文件到語音網站</string>
+<!-- Strings for settings -->
+<string name="voice_settings">聲音</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="language">語</string>
+<string name="language_summary">選擇的語言相匹配的文檔\的語言</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="speed_pitch">語音速度和音調</string>
+<string name="speed_pitch_summary">設置語音的速度及螺距</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="read_page_title">頁碼</string>
+<string name="read_page_number">在每一頁的開頭提到頁碼</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="extract_header_title">提起頭</string>
+<string name="extract_header_summary">如果啟用，則在每一頁的標題閱讀</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="extract_footer_title">提到頁腳</string>
+<string name="extract_footer_summary">如果啟用的話，在每一頁的頁腳閱讀</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="play_over_media">對媒體播放</string>
+<string name="play_over_media_summary">檢查時，將發揮音樂播放器和其他媒體應用</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="look_and_feel_pref_cat">外觀和感覺</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="under_the_hood_pref_cat">引擎蓋下</string>
+<!-- at most 21 characters (abbreviate if needed) (Dialog Title) -->
+<string name="select_google_account_title">選擇一個 谷歌帳戶</string>
+<string name="cloud_feature">雲功能 </string>
+<string name="cloud_feature_description">啟用OCR圖片和PDF文件（需要谷歌帳戶）</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="text_extractor_title">選擇文本提取工具</string>
+<string name="text_extractor_summary">選擇文本提取工具</string>
+<!-- at most 21 characters (abbreviate if needed) (Dialog Title) -->
+<string name="txt_codec_title">選擇TXT編解碼器</string>
+<string name="txt_codec_summary">選擇編碼標準，用於文本文件（TXT）</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="promo_pref_cat">促銷活動</string>
+<string name="svox_summary">SVOX提供柔軟的聲音，理想的閱讀長文檔</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="svoxpromo">嘗試SVOX </string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="clear_cache">清除緩存</string>
+<string name="clear_cache_option">文件緩存起來閱讀速度，但可以清除，以確保新的配置變更生效</string>
+<string name="text_extraction_info_pdfbox">使用手機來提取文本，因此該文件從未離開過電話。該工具是善於從文檔中提取文本與文本列，但它不是善於從圖像中提取文本。</string>
+<string name="text_extraction_info_googleocr">在雲計算是一種服務。該文件將被運往安全的SSL協議使用谷歌文檔服務。服務還是不錯的，從圖像中提取文本，而從PDF，PdfBox無法讀取。 OCR服務是測試版，並有一個配額，因此，它可能會拒絕請求，如果頻繁使用。</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="about">
+    關於
+  </string>
+<!-- at most 21 characters (abbreviate if needed) (Dialog Title) -->
+<string name="select_language">選擇語言</string>
+<string name="lang_error">無法通過電話支持的語言。</string>
+<string name="speechspeed">
+    讀卡速度
+  </string>
+<string name="pages_cached"> 緩存的頁面</string>
+<string name="cache_notice">
+    
+      
+    
+  </string>
+<string name="dont_clear_cache">“不要清除緩存”</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="adjust_speed_pitch_diag_title">調整速度/間距</string>
+<!-- at most 30 characters (abbreviate if needed) -->
+<string name="text_extractor_diag_title">選擇的文本提取引擎</string>
+<!-- at most 30 characters (abbreviate if needed) -->
+<string name="text_code_diag_title">選擇文本編碼</string>
+<!-- at most 30 characters (abbreviate if needed) -->
+<string name="clear_cache_diag_title">清除緩存</string>
+<!-- About pdf-to-speech dialog -->
+<string name="about_notice">
+    版本 %1$s \ n©2010傑里米·比利亞洛沃斯。\ N
+  </string>
+<string name="license">許可證</string>
+<string name="credits">積分 </string>
+<string name="pitch">瀝青</string>
+<string name="default_button">默認</string>
+<!-- Speaker Service -->
+<string name="playing">播放 </string>
+<string name="service_started">服務已啟動</string>
+<string name="document_done">文件完成</string>
+<string name="title">標題：</string>
+<!-- PageReader Service -->
+<string name="uploading_pic_to_cloud">將文件上傳到雲</string>
+<string name="text_extraction_page">“文本提取頁”。</string>
+<string name="page_reader_started">提取文本開始</string>
+<string name="get_text_from_cloud">檢索文本</string>
+<string name="extracting_text">提取文本</string>
+<string name="page_read">頁</string>
+<string name="empty_file_list">沒有在此文件夾中的文件</string>
+<!-- Bookmark Fragment -->
+<string name="use_cloud_disabled">雲的使用被禁止，因此，所選擇的文件不能被讀取</string>
+<string name="bookmark_options_title">書籤菜單</string>
+<string name="bookmark_play">玩</string>
+<string name="bookmark_view">看</string>
+<string name="bookmark_edit">編輯</string>
+<string name="bookmark_delete">刪除</string>
+<string name="bookmark_empty">此文件沒有書籤</string>
+<!-- Settings tab -->
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="accounts">帳戶 </string>
+<string name="accounts_summary">設置或更改您的谷歌帳戶谷歌文檔訪問</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="speech_engine">語音引擎</string>
+<string name="speech_engine_summary">選擇使用的語音引擎</string>
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="theme_title">主題</string>
+<string name="theme_summary">選擇一個主題為PDF格式的語音</string>
+<string name="sunny_blue">短暫時間有陽光藍</string>
+<string name="clear_nigh">晴朗的夜晚#</string>
+<!-- Intent Handler -->
+<string name="maybenotpdftxtfile">無法識別的文件擴展名。這也許是不支持的格式</string>
+<!--
+		EULA strings (do not translate !)
+		The agreement is agreed upon in English: i_accept, i_decline, and eulat_title 
+		are all left in English.
+    -->
+<string name="i_accept">I Accept</string>
+<string name="i_decline">I Decline</string>
+<string name="eula_title">Pdf-to-Speech End User Agreement</string>
+<!-- End of EULA do not tranlate. -->
+<string name="auto_scroll">自動滾屏</string>
+<!-- New Strings -->
+<!-- at most 21 characters (abbreviate if needed) -->
+<string name="stream_select">選擇音頻流</string>
+<string name="stream_select_description">選擇為PDF格式的語音流使用。如果你想避免音樂流為PDF格式的語音和音樂應用程序設置不同的音量。</string>
+<string name="alarm">報警</string>
+<string name="music">音樂</string>
+<string name="tones">鈴聲</string>
+<string name="notification">通知</string>
+<string name="system">系統</string>
+<string name="ring">環</string>
+<string name="voice_call">語音呼叫</string>
+<string name="cd_global_progress">文件\的全球進步</string>
+<string name="cd_current_sentence">當前句子</string>
+</resources>
